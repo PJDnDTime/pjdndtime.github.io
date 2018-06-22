@@ -88,7 +88,7 @@ Bartholomew also wields the power to magically style your equipment. For 100 <sp
 <h3>Potions and Other Consumables</h3>
 <p><strong>
 Potions.</strong> 
-Potions of healing can be used to restore hit points (HP) during an adventure and come in a limitless variety of flavors. Some favorites include Cherry, Coffee, and Vanilla, however Bartholomew's favorites tend to be more abstract like Enthusiasm or Taxes.<br>A silght deviation from the normal rules of 5th Edition D&D, in <strong><u>Pete & Jeremy's DnDTime</strong></u> drinking a potion takes a bonus action, while feeding a potion to an unconscious ally takes an action.
+Potions of healing can be used to restore hit points (HP) during an adventure and come in a limitless variety of flavors. Some favorites include Cherry, Coffee, and Vanilla, however Bartholomew's favorites tend to be more abstract like Enthusiasm or Taxes.<br>A silght deviation from the normal rules of 5th Edition D&D, in <strong>Pete & Jeremy's DnDTime</strong> drinking a potion takes a bonus action, while feeding a potion to an unconscious ally takes an action.
 </p>
 <h4>Healing Potion Prices</h4>
 <p><table class="list-table">
