@@ -7,4 +7,4 @@
 Total revamp
 
 ### General
-Fungals, Lumberlings, Bunnyfolk
+Fungals, Lumberlings
