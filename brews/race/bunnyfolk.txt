@@ -2,7 +2,7 @@
 Homebrew Race: Bunnyfolk
 </h3>
 <p>
-Bunnyfolk are....
+Bunnyfolk are anthropomorphic rabbits with generally cheery dispositions. Bunnyfolk were originally given sentience by a long forgotten demi-god in the Sacred Vale, with the hope that the Bunnyfolk would worship it; Unfortunately for the demi-god, due to the relatively short-lived nature of Bunnyfolk, throughout the generations, the name of the god has long since been forgotten. Most Bunnyfolk are cheery go-getters and usually make excellent adventurers when they opt to leave their valeside home and go out adventuring.
 </p><br>
 <p><table style="background-color:#FDF1DC !important;">
 	<tr>
