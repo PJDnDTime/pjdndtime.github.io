@@ -1,9 +1,9 @@
 <h2>Player Queue</h2>
-<p>Register to play in Friday's episode of <u><strong>Pete & Jeremy's DnDTime</u></strong>. Sign-ups are available from Sunday through Wednesday, and Friday's players are announced on Thursday on our <a href="https://discord.gg/u3sMTvJ">discord server</a>. Game 1 each week is reserved to prioritize new players, so don't be afraid to sign up if you've never played with us before! For Games 2 and 3, players are selected based on their <strong>points</strong>. Points are earned by watching <a href="https://twitch.tv/dndtime">our stream</a>. Each cumulative hour watched earns one point. Every time a player participates in <u><strong>Pete & Jeremy's DnDTime</strong></u>, their point total is halved. Any attempts to abuse our point system will result in a ban from participation in <u><strong>Pete & Jeremy's DnDTime</u></strong>.</p>
+<p>Register to play in Friday's episode of <strong>Pete & Jeremy's DnDTime</strong>. Sign-ups are available from Sunday through Wednesday, and Friday's players are announced on Thursday on our <a href="https://discord.gg/u3sMTvJ">discord server</a>. Game 1 each week is reserved to prioritize new players, so don't be afraid to sign up if you've never played with us before! For Games 2 and 3, players are selected based on their <strong>points</strong>. Points are earned by watching <a href="https://twitch.tv/dndtime">our stream</a>. Each cumulative hour watched earns one point. Every time a player participates in <u><strong>Pete & Jeremy's DnDTime</strong>, their point total is halved. Any attempts to abuse our point system will result in a ban from participation in <strong>Pete & Jeremy's DnDTime</u></strong>.</p>
 <p>The sign-up queue resets every week, so remember to enter if you want to play!</p><br>
 <div id="signupDisabled" style="display:none">
 	<h2>Signups are Closed!</h2>
-	<p>Signups for <u><strong>Pete & Jeremy's DnDTime</strong></u> are open Sundays through Wednesdays. Come back then!</p>
+	<p>Signups for <strong>Pete & Jeremy's DnDTime</strong> are open Sundays through Wednesdays. Come back then!</p>
 </div>
 <div id="signupEnabled" style="display:block">
 	
@@ -14,7 +14,7 @@
 		<h3>Discord Username</h3>
 		<p><label for="discord"></label> <input id="discord" name="entry.1864134744" required="" type="text"></p><br>
 		<h3>Tier Preference</h3>
-		<p>Characters in <strong><u>Pete & Jeremy's DnDTime</u></strong> have an adventuring tier based on their level. Please select the tiers that you are interested in playing and for which you have a character of the appropriate level. Do not sign up for a tier for which you do not have an eligible character.<br>See the <a href="#playing" onclick="setTimeout(loadContent, 200);">Playing in DnDTime</a> to learn more about character tiers.</p>
+		<p>Characters in <strong>Pete & Jeremy's DnDTime</strong> have an adventuring tier based on their level. Please select the tiers that you are interested in playing and for which you have a character of the appropriate level. Do not sign up for a tier for which you do not have an eligible character.<br>See the <a href="#playing" onclick="setTimeout(loadContent, 200);">Playing in DnDTime</a> to learn more about character tiers.</p>
 		<p>If you have never played with us before, select 'New Player'.</p><br>
 		<div class="input-wrap">
 			<input name="entry.1371488662" type="checkbox" value="New Player"> <label>New Player</label>
