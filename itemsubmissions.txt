@@ -14,13 +14,13 @@ If your item submission does not follow the general guidelines set out in our <a
 <br>
 <h3>Item Keywords</h3>
 <div class="input-wrap">
-<input name="entry.1717208205" type="checkbox" value="Consumable"> <label>Consumable</label>
+<input name="entry.1717208205_sentinel" type="checkbox" value="Consumable"> <label>Consumable</label>
 </div>
 <div class="input-wrap">
-<input name="entry.1717208205" type="checkbox" value="Cursed"> <label>Cursed</label>
+<input name="entry.1717208205_sentinel" type="checkbox" value="Cursed"> <label>Cursed</label>
 </div>
 <div class="input-wrap">
-<input name="entry.1717208205" type="checkbox" value="Requires Attunement"> <label>Requires Attunement</label>
+<input name="entry.1717208205_sentinel" type="checkbox" value="Requires Attunement"> <label>Requires Attunement</label>
 </div>
 <br>
 <h3>Item Tier</h3>
@@ -28,13 +28,13 @@ If your item submission does not follow the general guidelines set out in our <a
 <input name="entry.191102696" type="checkbox" value="Story"> <label>Story</label>
 </div>
 <div class="input-wrap">
-<input name="entry.191102696" type="checkbox" value="Fabled"> <label>Fabled</label>
+<input name="entry.191102696_sentinel" type="checkbox" value="Fabled"> <label>Fabled</label>
 </div>
 <div class="input-wrap">
-<input name="entry.191102696" type="checkbox" value="Myth"> <label>Myth</label>
+<input name="entry.191102696_sentinel" type="checkbox" value="Myth"> <label>Myth</label>
 </div>
 <div class="input-wrap">
-<input name="entry.191102696" type="checkbox" value="Legend"> <label>Legend</label>
+<input name="entry.191102696_sentinel" type="checkbox" value="Legend"> <label>Legend</label>
 </div>
 <h3>Item Description</h3>
 <p><textarea name="entry.60222041" rows="10" style="width:100%;">Your item description here...</textarea></p>
