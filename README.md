@@ -1,2 +1,2 @@
 # pjdndtime.github.io
-### www.dndtime.stream
+### https://www.dndtime.stream/
