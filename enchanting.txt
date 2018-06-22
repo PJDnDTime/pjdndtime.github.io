@@ -54,7 +54,7 @@ Inferno is a fairly powerful weapon.  It provides a +1 bonus to hit and damage, 
 The End Result
 </h3>
 <p><i><strong>
-Example Item - Inferno.
+Inferno.
 </strong>
 Requires Attunement. 
 </i>
@@ -143,7 +143,7 @@ Story, Fable, Myth respectively. If required, attacks rolls should be around, +5
 A level 2, 4, or 6 spell with one use per day or a level 1, 3, or 5 spell with 3 uses. 
 </strong>
 Story, Fable, Myth respectively. If required, attacks rolls should be around, +5,+7,+9 for those tiers and save DC’s should be around 13, 15, 17.
-</p><br>
+</p>
 <p>
 Many items are not as simple as those listed above. If you have a more unique item idea, consider looking up a spell that would be comparable and using the above chart to gauge how powerful that effect is. Also keep in mind, the numbers above are not absolute and there are many other factors that can influence an item's balance. For example, whether or not it requires attunement and what type of action it uses if any.
 </p>
