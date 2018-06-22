@@ -5,7 +5,7 @@ Homebrew Race: The Floran (Fungal)
 Florans are a race of plantfolk who come in a variety of different shapes and sizes and can live for a wide range of years, depending on the subrace. Florans and usually lovers of nature, sometimes becoming adventurers more for the excitement of exploring new places than for any monetary reward. Florans tend towards neutrality, and usually prefer not to engage in the grand conflicts of good versus evil and law versus chaos without provocation. The most common Floran and the Lands of DnDTime fall into the subcategory of Blossomer, Fungal, or Lumberling.
 </p>
 <p>
-Fungals.....
+Fungals are a peculiar subrace of Florans which can be found in the underdark, feywild, the Baradac Swamp, and just about anywhere else that is dark and damp. Fungals are curious creatures by nature, and rely on their mind-altering, bioluminescent spores to keep them safe from the dangers which prowl in dark places. Fungals live in small communities and usually end up adventuring more as a side effect of their curiosity than by any intentional choice. Although Fungals tend to be more curious of than put off by the trappings of more civilized societies, often times a Fungals affinity for decay and the recycling of waste can be offputting for more civilized folk.
 </p><br>
 <p><table style="background-color:#FDF1DC !important;">
 	<tr>
