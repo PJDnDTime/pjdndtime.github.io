@@ -10,6 +10,4 @@ Total revamp
 Total revamp - see discord FAQ.
 
 ### General
-Restyle links to be less abbrasive
-
 Fungals, Lumberlings, Bunnyfolk
