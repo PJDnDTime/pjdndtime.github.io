@@ -1,9 +1,11 @@
-<h2>About the Stream</h2>
+<h2>About DnDTime</h2>
 <p>Pete and Jeremy's DnDTime is a Dungeons & Dragons livestream which airs live, every Friday night on Twitch.TV. The cast of DnDTime consists of 12 guests chosen from our viewers. These guests play characters of their creation in three, one-hour long mini-adventures which take place over the course of the night. There is no overarching plot or story-line connecting adventures, however there are recurring characters and settings which provide a framework for adventures in the world of DnDtime.</p>
 <p>The most significant of these is Bartholomew, the Grand Wizard. Bartholomew provides our heroes with exciting quests, steady pay, and also runs the in-game shop where players buy fun magical items. In DnDTime, groups of heroes are assigned quests by Bartholomew in exchange for a magical currency called Bartholomew Bucks. As heroes complete their quests, their renown and skill grows, as does their salary.</p>
 <p>Other recurring non-player characters and locations recurr frequently and separate DnDTime from unbridled, improvisational chaos. A hero may visit the Great Dump ruled by the mysterious and aloof "Trash King", become embroiled in the ancient conflict between the Math Goblins and the Trigognomes, or perhaps journey deep into the Baradac Swamp where anthropomorphic frogs and untold evils hold dominion. These common locations and characters give a solid grounding for viewers to recognize despite our ever-changing cast of heroes.</p>
-<h2>Joining DnDTime</h2>
-<p>DnDTime is just about as relaxed and low-commitment as you can get in the world of Dungeons & Dragons; Because our adventures are non-continuous, there is no commitment from week to week. To apply to joing DnDTime, head over to our Player Queue page, make comment on our Roll20 Looking For Game posting, and stop by our Discord Server and drop @DM Jeremy and @DM Pete a message!</p>
-<p>Speaking of which, Roll20 is what is called a "Table Top Simulator". It is a virual interface where players can control tokens (representing your characters and the enemies) and roll dice. We only use Roll20 to roll dice and track character abilities. Once you've posted on our Looking For Game posting, we can help you figure out Roll20 on the Discord Server. Despite the prevalence of other table top tools, such as DnDBeyond, we require that players use the Roll20 built in character sheet as it speeds up dice rolling and allows us to easily review players' character sheets.</p>
-<p>We use two different Roll20 lobbies for this game. The lobby you'll join initially is our staging area where you can build and test your character. Once its your turn to play in DnDTime we will provide a link to our live game lobby. This way you can update your character sheets, test your rolls, and chat in the staging lobby, without interrupting the stream. Always make sure to update your character sheet in the staging lobby, not the live game. If you want to use Roll20's macro functionality, refrain from creating macros which is not self-contained within your character sheet, as they will not carry over with the lobby transfer.</p>
-<p>There are getting to be a lot of people interested in playing in DnDtime, and there will be weeks where we don't have enough room for everyone to fit into a game, so make sure to follow the instructions on our Player Queue web page!</p>
+<h2>About Pete & Jeremy</h2>
+<h3>TrustAFlumph (DnDTime Jeremy)</h3>
+<p>
+</p>
+<h3>Shimek58 (DnDTime Pete)</h3>
+<p>
+</p>
