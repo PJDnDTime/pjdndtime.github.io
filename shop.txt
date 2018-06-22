@@ -182,6 +182,6 @@ A 3 ft. x 5 ft. carpet can carry up to 200 lb. at a fly speed of 80 feet. A carp
 <h3>Bartholomew's Choice</h3>
 <p>
 Little known fact, Bartholomew loves money. Rumor has it that if you give him a big enough pile of it (lets say 5,000 <span class="bucks">฿฿</span>), he will use his near-limitless magic to craft for you a legendary artifact of awesome power.
-</p>
+</p><br>
 <h2><a href="#backroom">The Back Room…</a></h2>
 
