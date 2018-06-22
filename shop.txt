@@ -45,7 +45,7 @@ Although you can trade items freely between your own characters, sometimes you e
 </p>
 <h3>Armor, Enchantments, and Glamour</h3>
 <p>
-Characters have access any of the base armors listed below at no charge. However, Bartholomew can transmute your existing armor into an upgraded armor for a small fee.
+Characters have access to any of the base armors listed below at no charge. However, Bartholomew can transmute your existing armor into more powerful armor for a small fee.
 </p>
 <h4>Armor Upgrades</h4>
 <p><table class="list-table">
@@ -72,7 +72,7 @@ Characters have access any of the base armors listed below at no charge. However
 <tr>
 <th>Price</th>
 <td>Free</td>
-<td>200 <span class="bucks">฿฿</span></td>
+<td>100 <span class="bucks">฿฿</span></td>
 </tr>
 </table></p>
 <p><b>
@@ -83,12 +83,12 @@ Bartholomew's power, of course, extends beyond mere style. For 400 <span class="
 <p><strong>
 Glamour.
 </strong> 
-Bartholomew also wields the power to magically style your equipment. For 100 <span class="bucks">฿฿</span>, the physical appearance of your armor or weapons can be transmuted to your preference. This process, called glamour, may include illusory effects, colors, or accessories. A glamoured item is magical for the purposes of overcoming resistance to nonmagical damage, but does gain any other bonus to effectiveness; For example, a sword glamoured to appear on fire would not do any additional fire damage. Additionally, no matter what your item looks like a glamoured item's nature cannot be concealed (i.e. a wizard's staff made to look like a simple walking stick, will still be recognized as a staff).
+Bartholomew also wields the power to magically style your equipment. For 100 <span class="bucks">฿฿</span>, the physical appearance of your armor or weapons can be transmuted to your preference. This process, called glamour, may include illusory effects, colors, or accessories. A glamoured item is magical for the purposes of overcoming resistance to nonmagical damage, but doesn't gain any other bonus to effectiveness; For example, a sword glamoured to appear on fire would not do any additional fire damage. Additionally, no matter what your item looks like a glamoured item's nature cannot be concealed (i.e. a wizard's staff made to look like a simple walking stick, will still be recognized as a staff).
 </p>
 <h3>Potions and Other Consumables</h3>
 <p><strong>
 Potions.</strong> 
-Potions of healing can be used to restore hit points (HP) during an adventure and come in an limitless variety of flavors. Some favorites include Cherry, Coffee, and Vanilla, however Bartholomew's favorites tend to be more abstract like Enthusiasm or Taxes.<br>A silght deviation from the normal rules of 5th Edition D&D, in <strong><u>Pete & Jeremy's DnDTime</strong></u> drinking a potion takes a bonus action, while feeding a potion to an unconscious ally takes an action.
+Potions of healing can be used to restore hit points (HP) during an adventure and come in a limitless variety of flavors. Some favorites include Cherry, Coffee, and Vanilla, however Bartholomew's favorites tend to be more abstract like Enthusiasm or Taxes.<br>A silght deviation from the normal rules of 5th Edition D&D, in <strong><u>Pete & Jeremy's DnDTime</strong></u> drinking a potion takes a bonus action, while feeding a potion to an unconscious ally takes an action.
 </p>
 <h4>Healing Potion Prices</h4>
 <p><table class="list-table">
