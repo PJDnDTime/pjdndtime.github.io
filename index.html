@@ -83,6 +83,7 @@ function loadContent() {
 	};
 	xhttp.open("GET", dynamicContent + ".txt", true);
 	xhttp.send();
+	window.scrollTo(0, 0);
 }
 window.addEventListener('hashchange', loadContent);
 
