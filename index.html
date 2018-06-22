@@ -10,7 +10,30 @@
 </head>
 <body onload="loadContent();">
 	<div class="topnav" id="topnavigationbar">
-		<a href="#welcome">Home</a><a href="#signups">Sign Up</a><a href="#shop">Bartholomew's Shop</a><a href="#playing">Playing in DnDTime</a><a href="#fanart">Fan Art</a><a href="#heroes">Heroes</a><a href="#items">Items</a><a href="#players">Players</a><a href="#about">About</a><a href="#faq">FAQ</a><a class="icon" href="javascript:void(0);" onclick="navFunction()"><i class="fa fa-bars"></i></a>
+		<a href="#welcome">Home</a><a href="#signups">Sign Up</a>
+		<div class="dropdown">Bartholomew's Shop <i class="fa fa-caret-down"></i>
+		<div class="dropdown-content">
+		<a href="#shop">Bartholomew's Shop</a>
+		<a href="#enchanting">Bartholomew's Guide to Enchanting</a>
+		<a href="#itemsubmissions">Item Submissions</a>
+		<a href="#backroom">The Back Room…</a>
+		</div></div>
+		<div class="dropdown">Playing in DnDTime <i class="fa fa-caret-down"></i>
+		<div class="dropdown-content">
+		<a href="#playing">Rules & Joining the Game</a>
+		<a href="#brews">DnDTime Brews: Homebrew</a>
+		</div></div>
+		<a href="#fanart">Fan Art</a>
+		<div class="dropdown">Characters <i class="fa fa-caret-down"></i>
+		<div class="dropdown-content">
+		<a href="#heroes">Character Lookup</a>
+		<a href="#hallofheroes">The Hall of Heroes</a>
+		</div></div>
+		<a href="#items">Items</a>
+		<a href="#players">Players</a>
+		<a href="#about">About</a>
+		<a href="#faq">FAQ</a>
+		<a class="icon" href="javascript:void(0);" onclick="navFunction()"><i class="fa fa-bars"></i></a>
 	</div>
 	<div class="notpaper">
 		<h1>PETE AND JEREMY'S DNDTIME</h1>
@@ -66,6 +89,7 @@ window.addEventListener('hashchange', loadContent);
 // Navbar FunctionS
 function navFunction() {
 	var x = document.getElementById("topnavigationbar");
+	var y = document.getElementById("dropdown");
 	if (x.className === "topnav") {
 		x.className += " responsive";
 	} else {
