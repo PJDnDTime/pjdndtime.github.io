@@ -25,14 +25,14 @@ Fungals.....
 			<br><div style="height:4px;width:100%;">&nbsp;</div>
 		</td>
 	</tr>
-  <tr>
+	<tr>
 		<td colspan="6">
 			<strong>Size. </strong>
       Medium
 			<br><div style="height:4px;width:100%;">&nbsp;</div>
 		</td>
 	</tr>
-  <tr>
+	<tr>
 		<td colspan="6">
 			<strong>Speed. </strong>
       30ft.
