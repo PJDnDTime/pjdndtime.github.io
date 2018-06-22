@@ -12,7 +12,7 @@ If your item submission does not follow the general guidelines set out in our <a
 <h3>Item Name</h3>
 <p><label for="itemname"></label> <input id="itemname" name="entry.930857940" required="" type="text"></p>
 <br>
-<h3>Item Keywords</h3><br>
+<h3>Item Keywords</h3><br><br>
 <div class="input-wrap">
 <input name="entry.1717208205_sentinel" type="checkbox" value="Consumable"> <label>Consumable</label>
 </div>
@@ -23,7 +23,7 @@ If your item submission does not follow the general guidelines set out in our <a
 <input name="entry.1717208205_sentinel" type="checkbox" value="Requires Attunement"> <label>Requires Attunement</label>
 </div>
 <br>
-<h3>Item Tier</h3><br>
+<h3>Item Tier</h3><br><br>
 <div class="input-wrap">
 <input name="entry.191102696" type="checkbox" value="Story"> <label>Story</label>
 </div>
