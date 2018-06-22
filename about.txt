@@ -1,11 +1,20 @@
 <h2>About DnDTime</h2>
-<p>Pete and Jeremy's DnDTime is a Dungeons & Dragons livestream which airs live, every Friday night on Twitch.TV. The cast of DnDTime consists of 12 guests chosen from our viewers. These guests play characters of their creation in three, one-hour long mini-adventures which take place over the course of the night. There is no overarching plot or story-line connecting adventures, however there are recurring characters and settings which provide a framework for adventures in the world of DnDtime.</p>
-<p>The most significant of these is Bartholomew, the Grand Wizard. Bartholomew provides our heroes with exciting quests, steady pay, and also runs the in-game shop where players buy fun magical items. In DnDTime, groups of heroes are assigned quests by Bartholomew in exchange for a magical currency called Bartholomew Bucks. As heroes complete their quests, their renown and skill grows, as does their salary.</p>
-<p>Other recurring non-player characters and locations recurr frequently and separate DnDTime from unbridled, improvisational chaos. A hero may visit the Great Dump ruled by the mysterious and aloof "Trash King", become embroiled in the ancient conflict between the Math Goblins and the Trigognomes, or perhaps journey deep into the Baradac Swamp where anthropomorphic frogs and untold evils hold dominion. These common locations and characters give a solid grounding for viewers to recognize despite our ever-changing cast of heroes.</p>
+<p>
+DnDTime is a Twitch.tv channel and Discord community dedicated to 5th Edition Dungeons & Dragons (D&D). Pete and Jeremy started this channel because we have a passion for D&D and want to share that passion with the world. We broadcast quite a few differents shows on Twitch, but our premier show is <strong>Pete & Jeremy's DnDTime</strong>. The short-form episodic nature of <strong>Pete & Jeremy's DnDTime</strong> affords us the creative liberty to really take some creative risks and be outside the box with our adventures, locations, and NPCs. For us, being a Dungeon Master is about making something interesting, unique, and engaging for our players.
+</p>
+<p>
+<strong>Pete & Jeremy's DnDTime</strong> has been running for over a year now, and Pete and Jeremy could not be more proud of the community and the game we've all built together. 
+</p>
+<p>
 <h2>About Pete & Jeremy</h2><br>
 <h3>TrustAFlumph (DnDTime Jeremy)</h3>
 <p>
+Jeremy has a degree in chemical engineering and graduated from the University of Massachussetts, Amherst in 2015. Jeremy's first real exposure to D&D was in 2006 playing Pathfinder; However he, alongside his local gaming group, swapped to 4th Edition upon its release in 2008. Despite the relatively strong sentiment in the D&D community against 4th Edition D&D, Jeremy loves the nitty gritty tactics and encounter/daily power system of 4th Edition to this day. Jeremy was extremely tentative about D&D Next, which later became 5th Edition D&D, initially distrusting, but eventually falling in love with, the branching-tree character choices design of the system. Jeremy has played a hand full of other table top RPG systems, such as Stars Without Number, B.E.S.M., Paranoia, and several experimental free-form table-top systems of his own creation throughout his experience in table-top gaming.
+</p>
+<p>
+In <strong>Pete & Jeremy's DnDTime</strong>, Jeremy is the creator of the Baradac Swamp, Big Rock Candy Mountains, and Silvered Peaks regions. His favorite NPCs are Pharoah Froggenhoppen of the Baradac Grung, Clinton Slaughtermurder the Chefromancer, and Grandarf the elderly wizard.
 </p>
 <h3>Shimek58 (DnDTime Pete)</h3>
 <p>
+
 </p>
