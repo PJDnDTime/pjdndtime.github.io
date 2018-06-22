@@ -19,7 +19,7 @@
 <p>Besides the basics of building a character for D&D, we have the following rules for how to make your DnDTime Heroes:</p>
 <p>▪ Your character starts at level 1.</p>
 <p>▪ We use the standard array for determining ability scores (15, 14, 13, 12, 10, 8).</p>
-<p>▪ When leveling up players always take their class' standard hit point increase.</p>
+<p>▪ When leveling up, use your class' average hit point increase instead of rolling.</p>
 <p>▪ You may use character options from any official published material. See the complete list of <a href="https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks#Dungeons_&_Dragons_5th_edition">official "Wizard RPG Team" products</a> for details.</p>
 <p>▪ The Feat and Multiclassing options from the <u>Players' Handbook</u> are not allowed.</p>
 <p>▪ A given character may only ever have one summoned creature at a given time, regardless of the source of the summoning or the description of the spell.</p>
