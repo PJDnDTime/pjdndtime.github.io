@@ -1,6 +1,6 @@
 <h2>The Rules</h2><br>
 <h3>Code of Conduct</h3>
-<p>Whether in Discord, Twitch chat, or our games, <u><strong>Pete & Jeremy's DnDTime</u></strong> is an open and friendly community for everyone, irrespective of age, disability, ethnicity, gender, religion, sex, game experience, character choices, etcetera.</p>
+<p>Whether in Discord, Twitch chat, or our games, <strong>Pete & Jeremy's DnDTime</strong> is an open and friendly community for everyone, irrespective of age, disability, ethnicity, gender, religion, sex, game experience, character choices, etcetera.</p>
 <p>▪ You must be respectful of all other players; Bullying or harassment of any sort is strictly prohibited.</p>
 <p>▪ Pay attention to not talk over others; Just because a player is less comfortable putting themselves out there doesn’t mean they don’t have something to say!</p>
 <p>▪ Do not take advantage of Pete and Jeremy’s flexibility. Attempts to manipulate the systems we have put in place to run the show (points system, signups, etcetera) will not be tolerated.</p>
@@ -11,7 +11,7 @@
 <p>▪ Minimal background noise; Discord’s Push-to-Talk feature is required during the stream if you have any major background noise.</p>
 <p>▪ A reliable internet connection; Please do not participate if you are going to disconnect every few minutes as it can be quite disruptive.</p><br>
 <h2>Participating in DnDTime</h2>
-<p>Now that you understand our rules, lets dive into how you can play in <u><strong>Pete & Jeremy's DnDTime</u></strong>!
+<p>Now that you understand our rules, lets dive into how you can play in <strong>Pete & Jeremy's DnDTime</strong>!
 <h3>Joining DnDTime</h3>
 <p>If you haven't already, join our <a href="https://discord.gg/u3sMTvJ">discord server</a>, <a href="https://app.roll20.net/lfg/listing/77757/">make a post on our Roll20 LFG</a>, and <a href="#signups">sign up to play here on our website</a>. Once you've done that, ask a Party Leader on discord to invite you from your Roll20 post and give you a character sheet in Roll20. Then start making your character.</p>
 <h3>Building a Character for DnDTime</h3>
@@ -26,7 +26,7 @@
 <p>▪ Homebrew content is not allowed, with the exception of character options created during <a href="#brews"><strong>DnDTime Brews</strong></a>.</p>
 <p>▪ For starting equipment, use the armor provided by your class (if any). All other mundane (i.e. non-magical) adventuring gear, tools, and weapons are free.</p>
 <h3>Character Progression</h3>
-<p>Every time you participate in <u><strong>Pete & Jeremy's DnDTime</u></strong>, you gain 100 Bartholomew Bucks (<span class="bucks">฿฿</span>) and your character gains 1 experience point (XP). In our game, leveling up follows a mathematical sequence known as triangular numbers; The minimum XP required to reach level ‘L’ equals L×(L−1)÷2; You can also think of it as: Every time you reach a level, you need to earn an additional amount of XP equal to that level to level up again; Once you reach level 5, you’ll need 5 more XP to reach 6. Characters are grouped into 'Tiers' of adventuring, based on their levels (see below). Your <span class="bucks">฿฿</span> and XP rewards increase as you increase in tier.</p>
+<p>Every time you participate in <strong>Pete & Jeremy's DnDTime</strong>, you gain 100 Bartholomew Bucks (<span class="bucks">฿฿</span>) and your character gains 1 experience point (XP). In our game, leveling up follows a mathematical sequence known as triangular numbers; The minimum XP required to reach level ‘L’ equals L×(L−1)÷2; You can also think of it as: Every time you reach a level, you need to earn an additional amount of XP equal to that level to level up again; Once you reach level 5, you’ll need 5 more XP to reach 6. Characters are grouped into 'Tiers' of adventuring, based on their levels (see below). Your <span class="bucks">฿฿</span> and XP rewards increase as you increase in tier.</p>
 <h4>Character Salary and Tier by Level</h4>
 <table class="list-table">
 <tr>
@@ -80,4 +80,4 @@
 <p><strong>Mythic Battle.</strong> Upon defeating one of our mythic bosses, a character is granted nobility throughout the Lands of DnDTime, gaining with that loyal followers and a small stronghold of their design. Additionally, the tales of their exploits will be forever immortalized in the Hall of Heroes.</p>
 <p><strong>Legendary Battle.</strong> No such hero has yet reached this level.</p>
 <h3>Character Death</h3>
-<p>Character death is a mere inconvenience in <u><strong>Pete & Jeremy's DnDTime</u></strong>. Whenever a character dies, they are resurrected free of charge in Bartholomew's Shop after the adventure. Character death has no impact on <span class="bucks">฿฿</span> or XP earned, as long as the quest is completed.</p>
+<p>Character death is a mere inconvenience in <strong>Pete & Jeremy's DnDTime</strong>. Whenever a character dies, they are resurrected free of charge in Bartholomew's Shop after the adventure. Character death has no impact on <span class="bucks">฿฿</span> or XP earned, as long as the quest is completed.</p>
