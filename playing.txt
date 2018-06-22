@@ -19,6 +19,7 @@
 <p>Besides the basics of building a character for D&D, we have the following rules for how to make your DnDTime Heroes:</p>
 <p>▪ Your character starts at level 1.</p>
 <p>▪ We use the standard array for determining ability scores (15, 14, 13, 12, 10, 8).</p>
+<p>▪ When leveling up players always take their class' standard hit point increase.</p>
 <p>▪ You may use character options from any official published material. See the complete list of <a href="https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks#Dungeons_&_Dragons_5th_edition">official "Wizard RPG Team" products</a> for details.</p>
 <p>▪ The Feat and Multiclassing options from the <u>Players' Handbook</u> are not allowed.</p>
 <p>▪ A given character may only ever have one summoned creature at a given time, regardless of the source of the summoning or the description of the spell.</p>
@@ -76,7 +77,7 @@
 <h3>Boss Battles</h3>
 <p>In order to level up into a new tier, a hero must first complete a boss battle against one of our unique and deadly bosses. A few of our past bosses include the dastardly revenant Bradus Deadwalker, the pernicious Riddle Boy, and the wicked hag coven, the Bitter Sisters. A boss battle will be scheduled once four characters reach the appropriate level to participate and sign up. As long as at least one character survives to defeat the boss, everyone in the party is considered to be victorious and shares in the spoils. Victory in a boss battle rewards double the normal salary of a character's new tier and a special bonus reward specific to each tier.</p>
 <p><strong>Fabled Battle.</strong> Upon defeating one of our fabled bosses, a character earns a title of their choosing to be displayed on stream whenever they play.</p>
-<p><strong>Mythic Battle.</strong> Upon defeating one of our mythic bosses, a character is granted nobility throughout the Lands of DnDTime, gaining with that loyal followers and a small stronghold of their design.</p>
-<p><strong>Lefendary Battle.</strong> No such hero has yet reached this level.</p>
+<p><strong>Mythic Battle.</strong> Upon defeating one of our mythic bosses, a character is granted nobility throughout the Lands of DnDTime, gaining with that loyal followers and a small stronghold of their design. Additionally, the tales of their exploits will be forever immortalized in the Hall of Heroes.</p>
+<p><strong>Legendary Battle.</strong> No such hero has yet reached this level.</p>
 <h3>Character Death</h3>
-<p>Character death is a mere inconvenience in <u><strong>Pete & Jeremy's DnDTime</u></strong>. Whenever a character dies, they are resurrected free of charge in Bartholomew's Shop after the adventure. Character death has no impact on <span class="bucks">฿฿</span> or XP earned.</p>
+<p>Character death is a mere inconvenience in <u><strong>Pete & Jeremy's DnDTime</u></strong>. Whenever a character dies, they are resurrected free of charge in Bartholomew's Shop after the adventure. Character death has no impact on <span class="bucks">฿฿</span> or XP earned, as long as the quest is completed.</p>
