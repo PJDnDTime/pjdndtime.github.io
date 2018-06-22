@@ -7,17 +7,18 @@
 	width: 325px;
 }
 a {
-  color: blue;
-  text-decoration: none;
+	color: blue;
+	text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 a:active {
-  color: black;
+	color: black;
 }
 a:visited {
-  color: purple;
+	color: purple;
+	text-decoration: underline;
 }
 body {
 	background-image: url("bg.jpg");
