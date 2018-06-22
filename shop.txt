@@ -36,7 +36,7 @@ The signature option at Bartholomew's Shop. Throughout countless years of advent
 <p><strong>
 Submitting Magic Items.
 </strong> 
-Interested in sharing your own creative spark with DnDTime? Read <a href="#enchanting">Bartholomew's Guide to Enchanting</a>, then <a href="https://docs.google.com/forms/d/e/1FAIpQLScm1Q5HW0q0y-kl1jzJU0EUOyHv8JOne9F6hoHaSDCE02jfiQ/viewform">submit your own items</a> for Bartholomew's Big Bag Bonanza. Not every item will make it into the bag, and Pete and Jeremy reserve the right to tweak and adjust as we see fit. When an item that you designed is pulled, you will recieve a 100 <span class="bucks">฿฿</span> creators reward and be credited on the stream for your contribution.
+Interested in sharing your own creative spark with DnDTime? Read <a href="#enchanting">Bartholomew's Guide to Enchanting</a>, then <a href="#itemsubmissions">submit your own items</a> for Bartholomew's Big Bag Bonanza. Not every item will make it into the bag, and Pete and Jeremy reserve the right to tweak and adjust as we see fit. When an item that you designed is pulled, you will recieve a 100 <span class="bucks">฿฿</span> creators reward and be credited on the stream for your contribution.
 </p>
 <p><strong>
 Trash Time.
