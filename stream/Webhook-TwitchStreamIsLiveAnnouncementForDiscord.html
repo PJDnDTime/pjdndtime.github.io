@@ -40,20 +40,15 @@
 			crossorigin="anonymous">
 		</script>
 		<script src="Webhook-TwitchStreamIsLiveAnnouncementForDiscord.js"></script>
-	<script type="text/javascript">
-		$(function () {
-			//grab the entire query string
-			var query = document.location.search.replace('?', '');
-			//extract each field/value pair
-			query = query.split('&');
-			//run through each pair
-			for (var i = 0; i < query.length; i++) {
-				//split up the field/value pair into an array
-				var field = query[i].split("=");
-				//target the field and assign its value
-				$("input[name='" + field[0] + "'], select[name='" + field[0] + "']").val(field[1]);
-			}
-		};
-	</script>
+		<script>
+			function getParam(name) { name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]"); var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"), results = regex.exec(location.search); return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " ")); }
+			Webflow.push(function() {
+				// Auto-populate form fields (text fields only) based on query string
+				$('input:text, input[type=email]').each(function() {
+					var paramValue = getParam(this.id);
+					if(this.value == "" && paramValue != "") this.value = paramValue;
+				});
+			});
+		</script>
 	</body>
 </html>
