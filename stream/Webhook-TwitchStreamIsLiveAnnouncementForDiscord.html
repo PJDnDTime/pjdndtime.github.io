@@ -5,30 +5,33 @@
 		<h1>DnDTime Discord Stream Announcment Webhook</h1>
 		<form id="form">
 			<div>
-				<label><i>Webhook</i></label><br>
-				<input type="text" name="webhookurl" id="webhook" size="100" autocomplete="on">
+				<label>Webhook
+					<input type="text" name="webhookurl" id="webhook" size="100" autocomplete="on">
+				</label>
 			</div><br>
 			<div>
-				<label><i>Show Title</i></label><br>
-				<input list="titles" id="title" size="100" autocomplete="off">
-				<datalist id="titles">
-					<option value="DnDTime Talks">
-					<option value="Pete & Jeremy's DnDTime">
-					<option value="DnDTime Behind the Screen">
-					<option value="DnDTime Delves">
-					<option value="DnDTime Brews">
-				</datalist>
+				<label>Show Title
+					<input list="titles" id="title" size="100" autocomplete="off">
+					<datalist id="titles">
+						<option value="DnDTime Talks">
+						<option value="Pete & Jeremy's DnDTime">
+						<option value="DnDTime Behind the Screen">
+						<option value="DnDTime Delves">
+						<option value="DnDTime Brews">
+					</datalist>
+				</label>
 			</div><br>
 			<div>
-				<label><i>Show Description</i></label><br>
-				<input list="descriptions" id="desc" size="100" autocomplete="off">
-				<datalist id="descriptions">
-					<option value="Pete and Jeremy discuss all things D&D; Tonight's topic: Running One-Shot Adventures">
-					<option value="Three, one-hour, one-shot adventures featuring our viewers!">
-					<option value="Jeremy prepares for Sunday's episode of DnDTime Delves.">
-					<option value="A three-hour dungeon crawl adventure; Tonight's adventure: The Catacombs of Koptila">
-					<option value="Creating high quality homebrew for DnDTime. Tonight's topic: Race Options - The Floran">
-				</datalist>
+				<label>Show Description
+					<input list="descriptions" id="desc" size="100" autocomplete="off">
+					<datalist id="descriptions">
+						<option value="Pete and Jeremy discuss all things D&D; Tonight's topic: Running One-Shot Adventures">
+						<option value="Three, one-hour, one-shot adventures featuring our viewers!">
+						<option value="Jeremy prepares for Sunday's episode of DnDTime Delves.">
+						<option value="A three-hour dungeon crawl adventure; Tonight's adventure: The Catacombs of Koptila">
+						<option value="Creating high quality homebrew for DnDTime. Tonight's topic: Race Options - The Floran">
+					</datalist>
+				</label>
 			</div><br>
 			<div>
 				<input type="submit"></input>
@@ -40,15 +43,5 @@
 			crossorigin="anonymous">
 		</script>
 		<script src="Webhook-TwitchStreamIsLiveAnnouncementForDiscord.js"></script>
-		<script>
-			function getParam(name) { name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]"); var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"), results = regex.exec(location.search); return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " ")); }
-			Webflow.push(function() {
-				// Auto-populate form fields (text fields only) based on query string
-				$('input:text, input[type=email]').each(function() {
-					var paramValue = getParam(this.id);
-					if(this.value == "" && paramValue != "") this.value = paramValue;
-				});
-			});
-		</script>
 	</body>
 </html>
