@@ -2,6 +2,7 @@ $(document).ready(function() {
     $("#form").submit(function(e) {
 	e.preventDefault();
     var d = new Date();
+    var n = d.getTime();
 	var sdata = {
 		"content": "Hey there @here, DnDTime has gone live on twitch! Come check it out!",
 	    "embeds": [{
@@ -13,7 +14,7 @@ $(document).ready(function() {
 			"text": "Started Streaming",
 		},
 		"image": {
-		    "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dndtime-1280x720.jpg"
+		    "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dndtime-1280x720.jpg?"+n
 		}
 	    }]
 	};
