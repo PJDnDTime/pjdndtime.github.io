@@ -4,7 +4,7 @@ $(document).ready(function() {
     var d = new Date();
     var n = d.getTime();
 	var sdata = {
-		"content": "Hey there @here, DnDTime has gone live on twitch! Come check it out!",
+		"content": "Hey there @here, do you know what time it is?\nIt's DnDTime! Live on https://twitch.tv/DnDTime; Come check us out!",
 	    "embeds": [{
 		"description": "**["+$("#title").val()+"](https://twitch.tv/dndtime)**\n"+$("#desc").val(),
 		"color": 6570404,
