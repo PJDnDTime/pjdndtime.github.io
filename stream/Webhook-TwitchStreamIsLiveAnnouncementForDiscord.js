@@ -14,7 +14,7 @@ $(document).ready(function() {
 			"text": "Started Streaming",
 		},
 		"image": {
-		    "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dndtime-1280x720.jpg?"+n
+		    "url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_dndtime-768x432.jpg?"+n
 		}
 	    }]
 	};
