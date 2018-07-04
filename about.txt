@@ -1,6 +1,6 @@
 <h2>About DnDTime</h2>
 <p>
-DnDTime is a Twitch.tv channel and Discord community dedicated to 5th Edition Dungeons & Dragons (D&D). Pete and Jeremy started this channel because we have a passion for D&D and want to share that passion with the world. We broadcast quite a few differents shows on Twitch, but our premier show is <strong>Pete & Jeremy's DnDTime</strong>. The short-form episodic nature of <strong>Pete & Jeremy's DnDTime</strong> affords us the creative liberty to really take some creative risks and be outside the box with our adventures, locations, and NPCs. For us, being a Dungeon Master is about making something interesting, unique, and engaging for our players.
+DnDTime is a Twitch.tv channel and Discord community dedicated to 5th Edition Dungeons & Dragons (D&D). Pete and Jeremy started this channel because we have a passion for D&D and want to share that passion with the world. We broadcast quite a few different shows on Twitch, but our premier show is <strong>Pete & Jeremy's DnDTime</strong>. The short-form episodic nature of <strong>Pete & Jeremy's DnDTime</strong> affords us the creative liberty to really take some creative risks and be outside the box with our adventures, locations, and NPCs. For us, being a Dungeon Master is about making something interesting, unique, and engaging for our players.
 </p>
 <p>
 <strong>Pete & Jeremy's DnDTime</strong> has been running for over a year now, and Pete and Jeremy could not be more proud of the community and the game we've all built together. 
