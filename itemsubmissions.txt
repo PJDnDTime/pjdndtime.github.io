@@ -3,7 +3,7 @@
 Bartholomew is always looking for new and interesting items to add to his bag.  If you have idea for an item, submit it here, and if we like the item, we'll add it to Bartholomew's Big Bag Bonanza.  If an item that you create is pulled from the bag, we'll reward you 100 Bartholomew Bucks (<span class="bucks">฿฿</span>) and credit you on the stream for your idea! We are primarily interested in items designed for the story and fable tier characters.
 </p>
 <p>
-If your item submission does not follow the general guidelines set out in our <a href="#enchanting">style guide</a>, or requires a substantial effort on our end to make it appropriate for <strong>Pete & Jeremy's DnDTime</strong>, we may choose not to award the 100 <span class="bucks">฿฿</span> at our sole discretion.
+If your item submission does not follow the general guidelines set out in our <a href="#enchanting">style guide</a>, or requires a substantial effort on our end to make it appropriate for <strong>Pete & Jeremy's DnDTime</strong>, we may choose not to award the 100 <span class="bucks">฿฿</span> at our sole discretion. Check out <a href="https://docs.google.com/document/d/1qKFWmVSFhsOYnlntfUr2c-N3y9c5bs9rPl7Q6domb-8/preview">these item templates</a> for common language used in magic items.
 </p>
 <form action="https://docs.google.com/forms/d/e/1FAIpQLSc1wVZtngQzbC8C258-Zm50nsHz_2Ecea6Xf6Tp2vpDyOSPsA/formResponse" method="post" target="_blank" autocomplete="off"><br>
 <h3>Twitch.TV Username</h3>
