@@ -1,9 +1,2 @@
-<h3>
-Homebrew Race: Undead
-</h3>
-<p>
-<iframe src="https://docs.google.com/document/d/1HXQkgTaUUWf04GN0I5JqixvsJ1ZfcLviTCUClHgafpM/preview" frameborder="0" height="800px" min-width="500px" width="100%"></iframe>
-</p>
-<p>
+<iframe src="https://docs.google.com/document/d/1HXQkgTaUUWf04GN0I5JqixvsJ1ZfcLviTCUClHgafpM/preview" frameborder="0" height="800px" width="100%"></iframe>
 <a href="https://docs.google.com/document/export?format=pdf&id=1HXQkgTaUUWf04GN0I5JqixvsJ1ZfcLviTCUClHgafpM&includes_info_params=true"><strong>Download PDF</strong></a>
-</p>
