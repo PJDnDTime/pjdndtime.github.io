@@ -11,7 +11,7 @@
 <tr>
 <th>Race</th>
 <th>Subrace</th>
-<th>ASI</th>
+<th>Ability Score Increase</th>
 <th>Size</th>
 </tr>
 <tr>
@@ -23,7 +23,13 @@
 <tr>
 <th>Floran</th>
 <td><a href="#brews/race/blossomer">Blossomer</a>, <a href="#brews/race/fungal">Fungal</a>, <a href="#brews/race/lumberling">Lumberling</a></td>
-<td>Con +2, Variable</td>
+<td>Con +2, Variable +1</td>
+<td>Medium</td>
+</tr>
+<tr>
+<th>Undead</th>
+<td><a href="#brews/race/undead">Dragonborn</a>, <a href="#brews/race/undead">Dwarf</a>, <a href="#brews/race/undead">Elf</a>, <a href="#brews/race/undead">Gnome</a>, <a href="#brews/race/undead">Halfling</a>, <a href="#brews/race/undead">Human</a>, <a href="#brews/race/undead">Orc</a></td>
+<td>Con +1, Variable +1</td>
 <td>Medium</td>
 </tr>
 </table></p>
