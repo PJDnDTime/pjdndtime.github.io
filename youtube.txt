@@ -1,0 +1,1 @@
+<img src="assets/favicon.png" onload="location.href='https://www.youtube.com/channel/UCgRhAXT4KEzPhPGhU_BBsSA'" width="0" height="0">
