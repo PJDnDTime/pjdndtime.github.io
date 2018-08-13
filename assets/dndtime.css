@@ -1,7 +1,7 @@
 @font-face {
 	/* Font created by /u/Solbera on Reddit */
-	font-family: "Nodesto Caps Condensed Bold";
-	src: url("NodestoCapsCondensedBold.woff2") format("woff2");
+	font-family: "Nodesto";
+	src: url("NodestoCondSCBold-DnDTime-Bold-Web.woff") format("woff2");
 }
 #audioplayer {
 	width: 325px;
@@ -38,17 +38,16 @@ body {
 	justify-content: space-between;
 }
 h1 {
-	color: white;
-	font-family: Nodesto Caps Condensed Bold;
+	font-family: "Nodesto";
+	color:white;
 	font-size: calc(36px + 3.0vw);
-	font-weight: bold;
 	margin-bottom: 0px;
 	margin-top: -10px;
 	line-height: 1.25;
 	text-align: center;
-	text-shadow: 1px 1px calc(0.05vw) #000000, -1px 1px calc(0.05vw) #000000, 1px -1px calc(0.05vw) #000000, -1px -1px calc(0.05vw) #000000;
+	text-shadow: 1px 1px calc(0.065vw) #000000, -1px 1px calc(0.065vw) #000000, 1px -1px calc(0.065vw) #000000, -1px -1px calc(0.065vw) #000000;
 	text-transform: uppercase;
-	-webkit-text-stroke-width: calc(0.1vw);
+	-webkit-text-stroke-width: calc(0.115vw);
 	-webkit-text-stroke-color: black;
 }
 h2, h3, h5 {
