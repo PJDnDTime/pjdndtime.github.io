@@ -46,7 +46,6 @@ h1 {
 	line-height: 1.25;
 	text-align: center;
 	text-shadow: 1px 1px calc(0.065vw) #000000, -1px 1px calc(0.065vw) #000000, 1px -1px calc(0.065vw) #000000, -1px -1px calc(0.065vw) #000000;
-	text-transform: uppercase;
 	-webkit-text-stroke-width: calc(0.115vw);
 	-webkit-text-stroke-color: black;
 }
