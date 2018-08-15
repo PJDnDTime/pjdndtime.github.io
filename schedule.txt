@@ -1,2 +1,2 @@
 <h2>DnDTime Monthly Stream Schedule</h2>
-<iframe src="./stream/schedule.html" frameborder="0" height="1000px" width="100%"></iframe>
+<iframe src="schedule.html" frameborder="0" height="1000px" width="100%"></iframe>
