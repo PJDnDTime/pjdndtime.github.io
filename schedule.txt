@@ -1,2 +1,2 @@
 <h3>DnDTime Monthly Stream Schedule</h3>
-<a href="https://rawgit.com/PJDnDTime/pjdndtime.github.io/master/stream/schedule.html">here</a>
+<a href="./stream/schedule.html">here</a>
