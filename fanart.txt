@@ -1,3 +1,3 @@
 <h2>Fan Art</h2>
-<p>Check the awesome fanart drawn by members of the DnDTime community! To submit your own, follow the instrucions <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-B7lMwo88oCTg79A1u417kRCgbUA2Ntuev77sDaMoXr5tYA/viewform">here</a>.</p>
+<p>Check the awesome fanart drawn by members of the DnDTime community! To submit your own, follow the instrucions on our discord server!</p>
 <iframe src="fanart.html" frameborder="0" height="525px" width="100%"></iframe>
