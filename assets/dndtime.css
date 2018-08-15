@@ -19,9 +19,6 @@ a:active {
 a:visited {
 	color: blue;
 }
-body {
-	background-image: url("bg.jpg");
-}
 .bucks {
 	font-size: 90%;
 }
