@@ -129,52 +129,52 @@ Every so often, a new set of classic Dungeons and Dragons items are made availab
 </tr>
 <tr>
 <th>
-Cap of Water Breathing
+Weapon of Warning
 </th>
 <td>
-While wearing this cap underwater, you can speak its command word as an action to create a bubble of air around your head. It allows you to breathe normally underwater. This bubble stays with you until you speak the command word again, the cap is removed, or you are no longer underwater.
+Requires Attunement. Weapon Enchantment. This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins.
 </td>
 <td style="white-space:nowrap">600 <span class="bucks">฿฿</span></td>
 </tr>
 <tr>
 <th>
-Helm of Telepathy
+Bracers of Archery
 </th><td>
-Requires Attunement. While wearing this helm, you can use an action to cast the detect thoughts spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply — using a bonus action to do so — while your focus on it continues.<br>
-While focusing on a creature with detect thoughts, you can use an action to cast the suggestion spell (save DC 13) from the helm on that creature. Once used, the suggestion property can't be used again until the next dawn.
+Requires Attunement. While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.
 </td>
 <td style="white-space:nowrap">600 <span class="bucks">฿฿</span></td>
 </tr>
 <tr>
 <th>
-Flame Tongue
+Mace of Disruption
 </th><td>
-Requires Attunement. You can use a bonus action to speak this magic sword' command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
+Requires Attunement. When you hit a fiend or an undead with this magic weapon, that creature takes an extra 2d6 radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes frightened of you until the end of your next turn.<br>
+While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
 </td>
 <td style="white-space:nowrap">1,200 <span class="bucks">฿฿</span></td>
 </tr>
 <tr>
 <th>
-Ring of Resistance
+Weapon of Life Stealing
 </th><td>
-When you purchase this ring, choose a damage type that is not bludgeoning, piercing or slashing. You have resistance to that damage type while wearing this ring.
+Weapon Enchantment. Requires Attunement. When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isn't a construct or an undead. You also gain 10 temporary hit points.
 </td>
 <td style="white-space:nowrap">1,200 <span class="bucks">฿฿</span></td>
 </tr>
 <tr>
 <th>
-Dwarven Plate
+Ring of Telekinesis
 </th><td>
-Requires Attunement. While wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet.</td>
+Requires Attunement. While wearing this ring, you can cast the telekinesis spell at will, but you can target only objects that aren't being worn or carried.
+</td>
 <td style="white-space:nowrap">1,800 <span class="bucks">฿฿</span>
 </td>
 </tr>
 <tr>
 <th>
-Carpet of Flying, 3 ft. x 5 ft.
+Robe of Scintillating Colors
 </th><td>
-You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.<br>
-A 3 ft. x 5 ft. carpet can carry up to 200 lb. at a fly speed of 80 feet. A carpet can carry up to twice this weight, but it flies at half speed if it carries more than its normal capacity.
+Requires Attunement. This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. While you wear it, you can use an action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Creatures that can see you have disadvantage on attack rolls against you. In addition, any creature in the bright light that can see you when the robe's power is activated must succeed on a DC 15 Wisdom saving throw or become stunned until the effect ends.
 </td>
 <td style="white-space:nowrap">1,800 <span class="bucks">฿฿</span></td>
 </tr>
