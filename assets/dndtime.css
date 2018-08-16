@@ -42,10 +42,10 @@ h1 {
 	margin-top: -10px;
 	line-height: 1.25;
 	text-align: center;
-	text-shadow: 1px 1px calc(0.065vw) #000000, -1px 1px calc(0.065vw) #000000, 1px -1px calc(0.065vw) #000000, -1px -1px calc(0.065vw) #000000;
-	-webkit-text-stroke-width: calc(0.115vw);
-	-webkit-text-stroke-color: black;
-}
+	text-shadow: #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw), #000 0px 0px calc(0.5px + 0.05vw);
+	letter-spacing: 2px;
+	-webkit-font-smoothing: antialiased;
+    }
 h2, h3, h5 {
 	color: #58180d;
 	display: inline-block;
