@@ -313,9 +313,7 @@ function parseFeed(xml) {
   document.getElementById("Desc30").innerHTML = xmlDoc.getElementsByTagName("gsx:c89")[0].childNodes[0].nodeValue;
   document.getElementById("Date30").innerHTML = xmlDoc.getElementsByTagName("gsx:c90")[0].childNodes[0].nodeValue;
 }
-// on first page load set 300 second update interval
 initDatastream();
-setInterval(initDatastream, 300000);
 </script>
 
 </html>
