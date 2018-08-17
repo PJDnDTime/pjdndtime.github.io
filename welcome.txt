@@ -2,10 +2,10 @@
 <p>DnDTime is a Twitch.tv channel and Discord community dedicated to 5th Edition Dungeons & Dragons (D&D). Our premier show, <strong>Pete & Jeremy's DnDTime</strong>, is a series of self-contained, one-shot adventures featuring our viewers! Head on over to <a href="#playing" onclick="setTimeout(loadContent, 200);">Playing in DnDTime</a> to learn more about the game, then <a href="#signups" onclick="setTimeout(loadContent, 200);">sign up to play</a>! We use Discord as our primary means of communication and Roll20 for all dice rolling and character management.</p><br>
 <div class="fabbox">
 <div><a href="https://twitch.tv/dndtime" style="color:#6441A4"><i class="fab fa-twitch"></i></a></div>
-<div><a href="#discord" style="color:#7289DA"><i class="fab fa-discord"></i></a></div>
+<div><a href="#/discord" style="color:#7289DA"><i class="fab fa-discord"></i></a></div>
 <div><a href="https://twitter.com/DnD_Time" style="color:#1DA1F2"><i class="fab fa-twitter"></i></a></div>
-<div><a href="#youtube" style="color:#FF0000"><i class="fab fa-youtube"></i></a></div>
-<div><a href="#roll20"><i class="fab"><img class="r20" src="assets/roll20.png"></i></a></div>
+<div><a href="#/youtube" style="color:#FF0000"><i class="fab fa-youtube"></i></a></div>
+<div><a href="#/roll20"><i class="fab"><img class="r20" src="assets/roll20.png"></i></a></div>
 </div>
 <h2>Our Content</h2>
 <p>We stream all sorts of D&D-related content throughout the week!</p>
