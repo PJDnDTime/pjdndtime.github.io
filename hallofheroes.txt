@@ -5,8 +5,8 @@
 <p>Have these heroes truly reached the pinnacle?</p><br>
 <p style="font-size: 1.25em;margin-bottom:15px;"><strong>Or have they only just opened the doors, to greatness.</strong></p>
 <hr>
-<a href="#heroes/kurogan" onclick="setTimeout(loadContent)"><h2>Kurogan, the Great and Powerful</h2></a><br>
-<a href="#heroes/selcress" onclick="setTimeout(loadContent)"><h2>Selcress of the Frozen Crown</h2></a><br>
-<a href="#heroes/lance" onclick="setTimeout(loadContent)"><h2>Lance Silverblood, the Silver Heirophant</h2></a><br>
-<a href="#heroes/switch" onclick="setTimeout(loadContent)"><h2>Sylias Galanodel, Judge Switch</h2></a><br>
+<a href="#/heroes/kurogan" onclick="setTimeout(loadContent)"><h2>Kurogan, the Great and Powerful</h2></a><br>
+<a href="#/heroes/selcress" onclick="setTimeout(loadContent)"><h2>Selcress of the Frozen Crown</h2></a><br>
+<a href="#/heroes/lance" onclick="setTimeout(loadContent)"><h2>Lance Silverblood, the Silver Heirophant</h2></a><br>
+<a href="#/heroes/switch" onclick="setTimeout(loadContent)"><h2>Sylias Galanodel, Judge Switch</h2></a><br>
 </div>
