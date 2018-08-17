@@ -13,7 +13,7 @@
 <h2>Participating in DnDTime</h2>
 <p>Now that you understand our rules, lets dive into how you can play in <strong>Pete & Jeremy's DnDTime</strong>!
 <h3>Joining DnDTime</h3>
-<p>If you haven't already, join our <a href="https://discord.gg/u3sMTvJ">discord server</a>, make a post on our <a href="https://app.roll20.net/lfg/listing/77757/">Roll20 LFG</a>, and sign up to play <a href="#signups">on our website</a>. Once you've done that, ask a Party Leader on discord to invite you from your Roll20 post and give you a character sheet in Roll20. Then start making your character.</p>
+<p>If you haven't already, join our <a href="https://discord.gg/u3sMTvJ">discord server</a>, make a post on our <a href="https://app.roll20.net/lfg/listing/77757/">Roll20 LFG</a>, and sign up to play <a href="#/signups">on our website</a>. Once you've done that, ask a Party Leader on discord to invite you from your Roll20 post and give you a character sheet in Roll20. Then start making your character.</p>
 <h3>Building a Character for DnDTime</h3>
 <p>If you're completely unfamiliar with Dungeons & Dragons (D&D), you will want to check out the 'Step-by-Step Character Creation' section in Chapter 1 of the <a href="http://dnd.wizards.com/products/tabletop/players-basic-rules">D&D Free Basic Rules</a>. Feel free to ask around in discord if you're still confused or just want some help.</p>
 <p>Besides the basics of building a character for D&D, we have the following rules for how to make your DnDTime Heroes:</p>
@@ -23,7 +23,7 @@
 <p>▪ You may use character options from any official published material. See the complete list of <a href="https://en.wikipedia.org/wiki/List_of_Dungeons_%26_Dragons_rulebooks#Dungeons_&_Dragons_5th_edition">official "Wizard RPG Team" products</a> for details.</p>
 <p>▪ The Feat and Multiclassing options from the <u>Players' Handbook</u> are not allowed.</p>
 <p>▪ A given character may only ever have one summoned creature at a given time, regardless of the source of the summoning or the description of the spell.</p>
-<p>▪ Homebrew content is not allowed, with the exception of character options created during <a href="#brews"><strong>DnDTime Brews</strong></a>.</p>
+<p>▪ Homebrew content is not allowed, with the exception of character options created during <a href="#/brews"><strong>DnDTime Brews</strong></a>.</p>
 <p>▪ For starting equipment, use the armor provided by your class (if any). All other mundane (i.e. non-magical) adventuring gear, tools, and weapons are free.</p>
 <h3>Character Progression</h3>
 <p>Every time you participate in <strong>Pete & Jeremy's DnDTime</strong>, you gain 100 Bartholomew Bucks (<span class="bucks">฿฿</span>) and your character gains 1 experience point (XP). In our game, leveling up follows a mathematical sequence known as triangular numbers; The minimum XP required to reach level ‘L’ equals L×(L−1)÷2; You can also think of it as: Every time you reach a level, you need to earn an additional amount of XP equal to that level to level up again; Once you reach level 5, you’ll need 5 more XP to reach 6. Characters are grouped into 'Tiers' of adventuring, based on their levels (see below). Your <span class="bucks">฿฿</span> and XP rewards increase as you increase in tier.</p>
