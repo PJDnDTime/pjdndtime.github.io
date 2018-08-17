@@ -36,7 +36,7 @@ The signature option at Bartholomew's Shop. Throughout countless years of advent
 <p><strong>
 Submitting Magic Items.
 </strong> 
-Interested in sharing your own creative spark with DnDTime? Read <a href="#enchanting">Bartholomew's Guide to Enchanting</a>, then <a href="#itemsubmissions">submit your own items</a> for Bartholomew's Big Bag Bonanza. Not every item will make it into the bag, and Pete and Jeremy reserve the right to tweak and adjust as we see fit. When an item that you designed is pulled, you will recieve a 100 <span class="bucks">฿฿</span> creators reward and be credited on the stream for your contribution.
+Interested in sharing your own creative spark with DnDTime? Read <a href="#/enchanting">Bartholomew's Guide to Enchanting</a>, then <a href="#/itemsubmissions">submit your own items</a> for Bartholomew's Big Bag Bonanza. Not every item will make it into the bag, and Pete and Jeremy reserve the right to tweak and adjust as we see fit. When an item that you designed is pulled, you will recieve a 100 <span class="bucks">฿฿</span> creators reward and be credited on the stream for your contribution.
 </p>
 <p><strong>
 Trash Time.
@@ -183,5 +183,5 @@ Requires Attunement. This robe has 3 charges, and it regains 1d3 expended charge
 <p>
 Little known fact, Bartholomew loves money. Rumor has it that if you give him a big enough pile of it (lets say 5,000 <span class="bucks">฿฿</span>), he will use his near-limitless magic to craft for you a legendary artifact of awesome power.
 </p><br>
-<h2><a href="#backroom">The Back Room…</a></h2>
+<h2><a href="#/backroom">The Back Room…</a></h2>
 
