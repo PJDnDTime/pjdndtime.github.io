@@ -201,25 +201,25 @@
 <body>
 
 <div class="nameplates">
-<div class="Name1" id="P1Name">Euchaunkas Ouwoupli</div>
-<div class="Title1" id="P1Title">The High Priest, Bringer of Bill</div>
-<div class="Name2" id="P2Name">Euchaunkas Ouwoupli</div>
-<div class="Title2" id="P2Title">The High Priest, Bringer of Bill</div>
-<div class="Name3" id="P3Name">Euchaunkas Ouwoupli</div>
-<div class="Title3" id="P3Title">The High Priest, Bringer of Bill</div>
-<div class="Name4" id="P4Name">Euchaunkas Ouwoupli</div>
-<div class="Title4" id="P4Title">The High Priest, Bringer of Bill</div>
-<div class="Class1" id="P1Class"><IMG SRC="https://www.dndtime.stream/assets/class_icons/barbarian.png"></div>
-<div class="Class2" id="P2Class"><IMG SRC="https://www.dndtime.stream/assets/class_icons/druid.png"></div>
-<div class="Class3" id="P3Class"><IMG SRC="https://www.dndtime.stream/assets/class_icons/barbarian.png"></div>
-<div class="Class4" id="P4Class"><IMG SRC="https://www.dndtime.stream/assets/class_icons/fighter.png"></div>
-<div class="AdvName1" id="AdvName">Nander's Tom(e/b)</div>
+<div class="Name1" id="P1Name"></div>
+<div class="Title1" id="P1Title"></div>
+<div class="Name2" id="P2Name"></div>
+<div class="Title2" id="P2Title"></div>
+<div class="Name3" id="P3Name"></div>
+<div class="Title3" id="P3Title"></div>
+<div class="Name4" id="P4Name"></div>
+<div class="Title4" id="P4Title"></div>
+<div class="Class1" id="P1Class"></div>
+<div class="Class2" id="P2Class"></div>
+<div class="Class3" id="P3Class"></div>
+<div class="Class4" id="P4Class"></div>
+<div class="AdvName1" id="AdvName"></div>
 </div>
-<div class="AdvDesc1" id="AdvDesc">The Tome of the Archmagi, a legendary spellbook of Nander, the first wizard, was stolen recently from the Vindale Academy Arcanum. This tome, of prolific magical import, holds ancient secrets still being rediscovered by the academy mages to this day. Our heroes must venture through the thief's escape portal and retrieve the tome lest the knowledge be lost forever!</div>
-<div class="Media1" id="P1Media">twitch.tv/dndtime</div>
-<div class="Media2" id="P2Media">twitch.tv/dndtime</div>
-<div class="Media3" id="P3Media">twitch.tv/dndtime</div>
-<div class="Media4" id="P4Media">twitch.tv/dndtime</div>
+<div class="AdvDesc1" id="AdvDesc"></div>
+<div class="Media1" id="P1Media"></div>
+<div class="Media2" id="P2Media"></div>
+<div class="Media3" id="P3Media"></div>
+<div class="Media4" id="P4Media"></div>
 
 <script src="https://apis.google.com/js/api.js" type="text/javascript">
 </script> 
@@ -259,7 +259,7 @@ function parseFeed(xml) {
   document.getElementById("P4Title").innerHTML = xmlDoc.getElementsByTagName("gsx:c15")[0].childNodes[0].nodeValue;
   document.getElementById("P4Media").innerHTML = xmlDoc.getElementsByTagName("gsx:c16")[0].childNodes[0].nodeValue;
   document.getElementById("AdvName").innerHTML = xmlDoc.getElementsByTagName("gsx:c17")[0].childNodes[0].nodeValue;
-  document.getElementById("AdvTitle").innerHTML = xmlDoc.getElementsByTagName("gsx:c18")[0].childNodes[0].nodeValue;
+  document.getElementById("AdvDesc").innerHTML = xmlDoc.getElementsByTagName("gsx:c18")[0].childNodes[0].nodeValue;
   }
 
 // first page load
