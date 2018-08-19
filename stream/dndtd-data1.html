@@ -244,7 +244,7 @@ function parseFeed(xml) {
   var xmlDoc = xml.responseXML;
   document.getElementById("P1Name").innerHTML = xmlDoc.getElementsByTagName("gsx:c01")[0].childNodes[0].nodeValue;
   document.getElementById("P1Class").innerHTML = xmlDoc.getElementsByTagName("gsx:c02")[0].childNodes[0].nodeValue;
-  document.getElementById("P1 Title").innerHTML = xmlDoc.getElementsByTagName("gsx:c03")[0].childNodes[0].nodeValue;
+  document.getElementById("P1Title").innerHTML = xmlDoc.getElementsByTagName("gsx:c03")[0].childNodes[0].nodeValue;
   document.getElementById("P1Media").innerHTML = xmlDoc.getElementsByTagName("gsx:c04")[0].childNodes[0].nodeValue;
   document.getElementById("P2Name").innerHTML = xmlDoc.getElementsByTagName("gsx:c05")[0].childNodes[0].nodeValue;
   document.getElementById("P2Class").innerHTML = xmlDoc.getElementsByTagName("gsx:c06")[0].childNodes[0].nodeValue;
