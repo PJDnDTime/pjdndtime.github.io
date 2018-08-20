@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <style>
 @font-face {
   font-family: "NodestoCaps";
-  src: url("/assets/NodestoCapsCondensedBold.woff2") format("woff2");
+  src: url("https://www.dndtime.stream/assets/NodestoCaps-DnDTime-Condensed.woff") format("woff");
 }
 @font-face {
   font-family: "ScalySansCapsBold";
-  src: url("/assets/Scaly%20Sans%20Caps%20Bold.woff2") format("woff2");
+  src: url("https://www.dndtime.stream/assets/Scaly%20Sans%20Caps%20Bold.woff2") format("woff2");
 }
 @font-face {
   font-family: "ZatannaMisdirection";
-  src: url("/assets/Zatanna%20Misdirection.woff2") format("woff2");
+  src: url("https://www.dndtime.stream/assets/Zatanna%20Misdirection.woff2") format("woff2");
 }
 .AdvName {
   font-family: NodestoCaps;
   font-size: 42px;
   font-weight: bold;
-  text-transform: uppercase;
   color: white;
   text-shadow: 0 0 4px #000000;
   margin-top: 5px;
@@ -35,7 +33,7 @@
 .AdvList {
   font-family: ZatannaMisdirection;
   font-size: 28px;
-  color: black;
+  color: #1c1c1c;
   font-weight: 600;
   line-height: 110%;
   text-align: right;
@@ -43,60 +41,51 @@
 .CharName {
   font-family: NodestoCaps;
   font-size: 38px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: black;
+  color: #1c1c1c;
   width: 308px;
   height: 38px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  letter-spacing: -0.25px;
+  letter-spacing: -0.5px;
 }
 .CharTitle {
   font-family: NodestoCaps;
   font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
   margin-top: -2px;
-  color: black;
+  color: #1c1c1c;
   width: 310px;
   height: 22px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   padding-right: 6px;
+  letter-spacing: -0.5px;
 }
 </style>
-	
-<title></title>
-	
 </head>
 	
 <body>
 	
-<div class="CharName" id="CharacterName01"></div>
-<div class="CharTitle" id="CharacterTitle01"></div>
-<div class="CharName" id="CharacterName02"></div>
-<div class="CharTitle" id="CharacterTitle02"></div>
-<div class="CharName" id="CharacterName03"></div>
-<div class="CharTitle" id="CharacterTitle03"></div>
-<div class="CharName" id="CharacterName04"></div>
-<div class="CharTitle" id="CharacterTitle04"></div>
-<div class="AdvList" id="AdvList1"></div>
-<div class="AdvList" id="AdvList2"></div>
-<div class="AdvList" id="AdvList3"></div>
-<div class="AdvName" id="AdventureTitle"></div>
+<div class="CharName" id="CharacterName01">Character 1</div>
+<div class="CharTitle" id="CharacterTitle01">the Sword that Cuts the Heavens & the One True King</div>
+<div class="CharName" id="CharacterName02">Character 1</div>
+<div class="CharTitle" id="CharacterTitle02">the Character 1 Title</div>
+<div class="CharName" id="CharacterName03">Character 1</div>
+<div class="CharTitle" id="CharacterTitle03">the Character 1 Title</div>
+<div class="CharName" id="CharacterName04">Character 1</div>
+<div class="CharTitle" id="CharacterTitle04">the Character 1 Title</div>
+<div class="AdvList" id="AdvList1">Adventure Title</div>
+<div class="AdvList" id="AdvList2">Adventure Title</div>
+<div class="AdvList" id="AdvList3">Adventure Title</div>
+<div class="AdvName" id="AdventureTitle">This it the adventure Title</div>
 <div class="AdvDesc" id="AdventureDescription"></div>
 
 <script src="https://apis.google.com/js/api.js" type="text/javascript">
-</script> 
-<script type="text/javascript">
 gapi.load('auth2', function() {
 	// Library loaded.
 });
-</script> 
-<script>
+
 function initDatastream() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -125,11 +114,9 @@ function parseFeed(xml) {
   document.getElementById("AdvList3").innerHTML = xmlDoc.getElementsByTagName("gsx:c13")[0].childNodes[0].nodeValue;
 }
 
-// first page load
+// on first page load, initialize and start refresh interval
 initDatastream();
 setInterval(initDatastream, 2000); // 2 seconds.
-
 </script>
-
 </body>
 </html>
