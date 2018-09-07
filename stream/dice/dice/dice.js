@@ -386,7 +386,7 @@
 
         this.reinit(container, dimentions);
 
-        this.world.gravity.set(0, 0, -9.8 * 800);
+        this.world.gravity.set(0, 0, -9.8 * 400);
         this.world.broadphase = new CANNON.NaiveBroadphase();
         this.world.solver.iterations = 16;
 
@@ -797,7 +797,7 @@
         prepare_rnd(function() {
             var vector = { x: (rnd() * 2 - 1) * box.w, y: -(rnd() * 2 - 1) * box.h };
             var dist = Math.sqrt(vector.x * vector.x + vector.y * vector.y);
-            var boost = (rnd() + 3) * dist;
+            var boost = (rnd() + 6) * dist;
             throw_dices(box, vector, boost, dist, notation_getter, before_roll, after_roll);
         });
     }
