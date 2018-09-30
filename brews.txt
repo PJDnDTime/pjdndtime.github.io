@@ -43,6 +43,17 @@ None available currently.
 </p>
 <h3>Homebrew Subclasses</h3>
 <p>
-<h4>Druid</h4>
-<th><a href="#/brews/subclass/druid-trash">Druid Circle: Trash</a></th>
+<h4>Subclass Options</h4>
+<p><table class="list-table">
+<tr>
+<th>Class</th>
+<th>Subclass Option</th>
+<th>Themes / Motif's</th>
+</tr>
+<tr>
+<th>Druid</th>
+<td><a href="#/brews/subclass/druid-trash">The Circle of Trash</a></th></td>
+<td>Civilization as a part of nature; Broken, lost, & forgotten places and things</td>
+</tr>
+</table>
 </p>
