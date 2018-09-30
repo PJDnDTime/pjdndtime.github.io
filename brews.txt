@@ -43,5 +43,6 @@ None available currently.
 </p>
 <h3>Homebrew Subclasses</h3>
 <p>
-None available currently.
+<h4>Druid</h4>
+<th><a href="#/brews/subclass/druid-trash">Druid Circle: Trash</a></th>
 </p>
