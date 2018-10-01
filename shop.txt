@@ -83,7 +83,10 @@ Bartholomew's power, of course, extends beyond mere style. For 400 <span class="
 <p><strong>
 Glamour.
 </strong> 
-Bartholomew also wields the power to magically style your equipment. For 100 <span class="bucks">฿฿</span>, the physical appearance of your armor or weapons can be transmuted to your preference. This process, called glamour, may include illusory effects, colors, or accessories. A glamoured item is magical for the purposes of overcoming resistance to nonmagical damage, but doesn't gain any other bonus to effectiveness; For example, a sword glamoured to appear on fire would not do any additional fire damage. Additionally, no matter what your item looks like a glamoured item's nature cannot be concealed (i.e. a wizard's staff made to look like a simple walking stick, will still be recognized as a staff).
+Bartholomew can also magically style your equipment. For 100 <span class="bucks">฿฿</span>, the physical appearance of your armor or weapons can be transmuted to your preference. This process, called glamour, may include illusory effects, colors, or accessories. A glamoured item counts as magical for the purposes of overcoming resistance, although all other effects are strictly illusory. For example, a sword glamoured to appear as though it were on fire would not do any additional fire damage. Additionally, no matter the appearance of the glamour, an item's true nature is not concealed (i.e. a wizard's staff made to look like a simple walking stick, will still be recognized as a staff).
+</p>
+<p>
+Once you've purchased a glamour, head over to our <a href="#/glamour">Glamour Spreadsheet</a> to write exactly how you want your glamour to look! Use the 'Right Click - Add Comment' feature to add in your description. Once approved, your description will show up on this website in the <a href="#/items">items</a> section.
 </p>
 <h3>Potions and Other Consumables</h3>
 <p><strong>
