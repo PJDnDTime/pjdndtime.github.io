@@ -22,7 +22,7 @@
 </tr>
 <tr>
 <th>Floran</th>
-<td><a href="#/brews/race/blossomer">Blossomer</a>, <a href="#/brews/race/fungal">Fungal</a>, <a href="#/brews/race/lumberling">Lumberling</a></td>
+<td><a href="#/brews/race/floran">Blossomer</a>, <a href="#/brews/race/floran">Fungal</a>, <a href="#/brews/race/floran">Lumberling</a></td>
 <td>Con +2, Variable +1</td>
 <td>Medium</td>
 </tr>
