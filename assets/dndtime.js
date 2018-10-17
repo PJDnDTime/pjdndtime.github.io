@@ -14,7 +14,7 @@ function loadContent() {
 }
 
 // Check for changed anchor navigation
-window.addEventListener( 'hashchange', loadContent );
+window.addEventListener( "hashchange", loadContent );
 
 // Navigation bar responsive scaling
 function navFunction() {
