@@ -24,7 +24,7 @@ function navFunction() {
     x.className += " responsive";
   } else {
     x.className = "topnav";
-  }
+  };
 }
 
 // Hide & show sign-ups based on date and time
