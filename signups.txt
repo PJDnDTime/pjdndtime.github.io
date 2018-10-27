@@ -8,7 +8,7 @@
 <div id="signupEnabled" style="display:block">
 	
 	<h2>Pete & Jeremy's DnDTime Signups</h2>
-<!--	<form action="https://docs.google.com/forms/d/e/1FAIpQLSfmHQlJSo91YWr8z8fV9vEoml5IZOrlnDW_4DfRIbt1XZwfFQ/formResponse" method="post" target="_blank"><br>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfmHQlJSo91YWr8z8fV9vEoml5IZOrlnDW_4DfRIbt1XZwfFQ/formResponse" method="post" target="_blank"><br>
 		<h3>Twitch.TV Username</h3>
 		<p><label for="twitch"></label> <input id="twitch" name="entry.192629599" required="" type="text"><small><i> Do not include any spaces</i></small></p><br>
 		<h3>Discord Username</h3>
@@ -54,7 +54,5 @@
 			</select>
 		</div><br>
 		<input type="submit" value="Sign Up!">
-	</form> -->
-	<p>There are no signups this week! For our end-of-event finale, just show up and we'll cycle you in to our <strong>Carnival of Souls: Final Boss Showdown!</strong> As a fair warning, all attendees will likely die, but will be resurrected by next week's games.</p>
-	<p>Each player who participates with any character will gain 1 experience point on each of their characters which are in DnDTime's Character database (i.e. have been played). You will likely get the opportunity to play more than one character this week. All characters must be completely ready to play upon cycling into the boss battle! Players may create up to <strong>one</strong> new character to participate in the night's evens but MUST private message TrustAFlumph (DnDTime Jeremy) on our discord server with the character's Name, Race, and Class PRIOR to Midnight on Thursday if you want to play them in the event.</p>
+	</form>
 </div>
