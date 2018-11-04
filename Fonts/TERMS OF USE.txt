@@ -1,5 +1,0 @@
-Fonts are converted to WOFF and WOFF2 formats by Jeremy Gilbride (Pete & Jeremy's DnDTime)
-
-You are free to use these fonts for anything you want as long as it is allowed by the Creative Commons liscense here:	https://creativecommons.org/licenses/by-sa/4.0/legalcode.
-
-Fonts created originally by /u/Solbera on Reddit.
