@@ -1,1 +1,0 @@
-<img src="assets/favicon.png" onload="location.href='https://discord.gg/4tdg9RX'" width="0" height="0">
