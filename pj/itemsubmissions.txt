@@ -1,0 +1,47 @@
+<title>Item Submissions</title>
+<div style="width:100%;height:85px;visibility: hidden;"></div>
+<div style="padding-left:10px;padding-top:4px;">
+<h2>Item Submissions</h2>
+<p>
+Bartholomew is always looking for new and interesting items to add to his bag.  If you have idea for an item, submit it here, and if we like the item, we'll add it to Bartholomew's Big Bag Bonanza.  If an item that you create is pulled from the bag, we'll reward you 100 Bartholomew Bucks and credit you on the stream for your contribution.
+</p>
+<p>
+Each submission must follow the guidelines established in <a href="#/pj/enchanting">Bartholomew's Guide to Enchanting</a>. Items which do not, or which require substantial revision on our end will not be compensated with the 100 Bartholomew Buck prize at our sole discretion.
+</p>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSc1wVZtngQzbC8C258-Zm50nsHz_2Ecea6Xf6Tp2vpDyOSPsA/formResponse" method="post" target="_blank" autocomplete="off"><br>
+<h3>Twitch.TV Username</h3>
+<p><label for="twitch"></label> <input id="twitch" name="entry.2078595832" required="" type="text"><small><i> Do not include any spaces</i></small></p>
+<br>
+<h3>Item Name</h3>
+<p><label for="itemname"></label> <input id="itemname" name="entry.930857940" required="" type="text"></p>
+<br>
+<h3>Item Keywords</h3><br><br>
+<div class="input-wrap">
+<input name="entry.1717208205_sentinel" type="checkbox" value="Consumable"> <label>Consumable</label>
+</div>
+<div class="input-wrap">
+<input name="entry.1717208205_sentinel" type="checkbox" value="Cursed"> <label>Cursed</label>
+</div>
+<div class="input-wrap">
+<input name="entry.1717208205_sentinel" type="checkbox" value="Requires Attunement"> <label>Requires Attunement</label>
+</div>
+<br>
+<h3>Item Tier</h3><br><br>
+<div class="input-wrap">
+<input name="entry.191102696" type="checkbox" value="Story"> <label>Story</label>
+</div>
+<div class="input-wrap">
+<input name="entry.191102696_sentinel" type="checkbox" value="Fabled"> <label>Fabled</label>
+</div>
+<div class="input-wrap">
+<input name="entry.191102696_sentinel" type="checkbox" value="Myth"> <label>Myth</label>
+</div>
+<div class="input-wrap">
+<input name="entry.191102696_sentinel" type="checkbox" value="Legend"> <label>Legend</label>
+</div>
+<h3>Item Description</h3>
+<p><textarea name="entry.60222041" rows="10" style="width:100%;">Your item description here...</textarea></p>
+<br>
+<input type="submit" value="Submit your item!">
+</form>
+</div>

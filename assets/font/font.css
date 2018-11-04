@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'SectionHeader';
+  src: url('SpectralSC-SemiBold.eot');
+  src: url('SpectralSC-SemiBold.woff2') format('woff2'),
+       url('SpectralSC-SemiBold.woff') format('woff'),
+       url('SpectralSC-SemiBold.ttf') format('truetype'),
+       url('SpectralSC-SemiBold.svg#SpectralSC-SemiBold') format('svg'),
+       url('SpectralSC-SemiBold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WebsiteHeader';
+  src: url('Nodesto-Caps-DnDTime-Condensed.eot');
+  src: url('Nodesto-Caps-DnDTime-Condensed.woff2') format('woff2'),
+       url('Nodesto-Caps-DnDTime-Condensed.woff') format('woff'),
+       url('Nodesto-Caps-DnDTime-Condensed.ttf') format('truetype'),
+       url('Nodesto-Caps-DnDTime-Condensed.svg#Nodesto-Caps-Condensed-DnDTimeCondensed') format('svg'),
+       url('Nodesto-Caps-DnDTime-Condensed.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TableHeader';
+  src: url('AlegreyaSansSC-Medium.eot');
+  src: url('AlegreyaSansSC-Medium.woff2') format('woff2'),
+       url('AlegreyaSansSC-Medium.woff') format('woff'),
+       url('AlegreyaSansSC-Medium.ttf') format('truetype'),
+       url('AlegreyaSansSC-Medium.svg#AlegreyaSansSC-Medium') format('svg'),
+       url('AlegreyaSansSC-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

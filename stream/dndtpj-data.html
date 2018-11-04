@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="../assets/font/font.css" rel="stylesheet">
+<style>
+@font-face {
+  font-family: "ZatannaMisdirection";
+  src: url("../assets/font/Zatanna%20Misdirection.woff2") format("woff2");
+}
+.AdvName {
+  font-family: WebsiteHeader;
+  font-size: 42px;
+  color: white;
+  text-shadow: 0 0 4px #000000;
+  margin-top: 5px;
+}
+.AdvDesc {
+  font-family: TableHeader;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 4px #000000;
+  margin-left: 3px;
+}
+.AdvList {
+  font-family: ZatannaMisdirection;
+  font-size: 28px;
+  color: #1c1c1c;
+  font-weight: 600;
+  line-height: 110%;
+  text-align: right;
+}
+.CharName {
+  font-family: WebsiteHeader;
+  font-size: 38px;
+  color: #1c1c1c;
+  width: 308px;
+  height: 38px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: -0.5px;
+}
+.CharTitle {
+  font-family: WebsiteHeader;
+  font-size: 20px;
+  margin-top: -2px;
+  color: #1c1c1c;
+  width: 310px;
+  height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 6px;
+  letter-spacing: -0.5px;
+}
+</style>
+</head>
+	
+<body>
+	
+<div class="CharName" id="CharacterName01"></div>
+<div class="CharTitle" id="CharacterTitle01"></div>
+<div class="CharName" id="CharacterName02"></div>
+<div class="CharTitle" id="CharacterTitle02"></div>
+<div class="CharName" id="CharacterName03"></div>
+<div class="CharTitle" id="CharacterTitle03"></div>
+<div class="CharName" id="CharacterName04"></div>
+<div class="CharTitle" id="CharacterTitle04"></div>
+<div class="AdvList" id="AdvList1"></div>
+<div class="AdvList" id="AdvList2"></div>
+<div class="AdvList" id="AdvList3"></div>
+<div class="AdvName" id="AdventureTitle"></div>
+<div class="AdvDesc" id="AdventureDescription"></div>
+
+<script src="https://apis.google.com/js/api.js" type="text/javascript">
+</script> 
+<script type="text/javascript">
+gapi.load('auth2', function() {
+	// Library loaded.
+});
+</script> 
+<script>
+function initDatastream() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      parseFeed(this);
+    }
+  }
+  xhttp.open("GET", "https://spreadsheets.google.com/feeds/list/1RbvEAtAvqr79s5FQx0X0f4t9LYxzf0cIy8_w6sOi6MQ/2/public/full/cokwr");
+  xhttp.send();
+}
+
+function parseFeed(xml) {
+  var xmlDoc = xml.responseXML;
+  document.getElementById("AdventureTitle").innerHTML = xmlDoc.getElementsByTagName("gsx:c01")[0].childNodes[0].nodeValue;
+  document.getElementById("AdventureDescription").innerHTML = xmlDoc.getElementsByTagName("gsx:c02")[0].childNodes[0].nodeValue;
+  document.getElementById("CharacterName01").innerHTML = xmlDoc.getElementsByTagName("gsx:c03")[0].childNodes[0].nodeValue;
+  document.getElementById("CharacterTitle01").innerHTML = xmlDoc.getElementsByTagName("gsx:c04")[0].childNodes[0].nodeValue;
+  document.getElementById("CharacterName02").innerHTML = xmlDoc.getElementsByTagName("gsx:c05")[0].childNodes[0].nodeValue;
+  document.getElementById("CharacterTitle02").innerHTML = xmlDoc.getElementsByTagName("gsx:c06")[0].childNodes[0].nodeValue;
+  document.getElementById("CharacterName03").innerHTML = xmlDoc.getElementsByTagName("gsx:c07")[0].childNodes[0].nodeValue;
+  document.getElementById("CharacterTitle03").innerHTML = xmlDoc.getElementsByTagName("gsx:c08")[0].childNodes[0].nodeValue;
+  document.getElementById("CharacterName04").innerHTML = xmlDoc.getElementsByTagName("gsx:c09")[0].childNodes[0].nodeValue;
+  document.getElementById("CharacterTitle04").innerHTML = xmlDoc.getElementsByTagName("gsx:c10")[0].childNodes[0].nodeValue;
+  document.getElementById("AdvList1").innerHTML = xmlDoc.getElementsByTagName("gsx:c11")[0].childNodes[0].nodeValue;
+  document.getElementById("AdvList2").innerHTML = xmlDoc.getElementsByTagName("gsx:c12")[0].childNodes[0].nodeValue;
+  document.getElementById("AdvList3").innerHTML = xmlDoc.getElementsByTagName("gsx:c13")[0].childNodes[0].nodeValue;
+}
+
+// on first page load, initialize and start refresh interval
+initDatastream();
+setInterval(initDatastream, 2000); // 2 seconds.
+</script>
+</body>
+</html>

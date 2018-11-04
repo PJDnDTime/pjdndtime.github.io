@@ -1,0 +1,62 @@
+<title>Signups</title>
+<div style="width:100%;height:85px;visibility: hidden;"></div>
+<div style="padding-left:10px;padding-top:4px;">
+<h2>Player Queue</h2>
+<p>Register to play in Friday's episode of <strong>Pete & Jeremy's DnDTime</strong>. Sign-ups are available from Sunday through Wednesday, and Friday's players are announced on Thursday on our <a href="#/discord">discord server</a>. Game 1 each week is reserved to prioritize new players, so don't be afraid to sign up if you've never played with us before! For Games 2 and 3, players are selected based on their <strong>points</strong>. Points are earned by watching <a href="https://twitch.tv/dndtime" target="_blank">our stream</a>. Each cumulative hour watched earns one point. Every time a player participates in <strong>Pete & Jeremy's DnDTime</strong>, their point total is halved. Any attempts to abuse our point system will result in a ban from participation in <strong>Pete & Jeremy's DnDTime</strong>.</p>
+<p>The sign-up queue resets every week, so remember to enter if you want to play!</p><br>
+<div id="signupDisabled" style="display:none">
+	<h2>Signups are Closed!</h2>
+	<p>Signups for <strong>Pete & Jeremy's DnDTime</strong> are open Sundays through Wednesdays. Come back then!</p>
+</div>
+<div id="signupEnabled" style="display:block">
+	
+	<h2>Pete & Jeremy's DnDTime Signups</h2>
+	<form action="https://docs.google.com/forms/d/e/1FAIpQLSfmHQlJSo91YWr8z8fV9vEoml5IZOrlnDW_4DfRIbt1XZwfFQ/formResponse" method="post" target="_blank"><br>
+		<h3>Twitch.TV Username</h3>
+		<p><label for="twitch"></label> <input id="twitch" name="entry.192629599" required="" type="text"><small><i> Do not include any spaces</i></small></p><br>
+		<h3>Discord Username</h3>
+		<p><label for="discord"></label> <input id="discord" name="entry.1864134744" required="" type="text"></p><br>
+		<h3>Tier Preference</h3>
+		<p>Characters in <strong>Pete & Jeremy's DnDTime</strong> have an adventuring tier based on their level. Please select the tiers that you are interested in playing and for which you have a character of the appropriate level. Do not sign up for a tier for which you do not have an eligible character.<br>See the <a href="#/pj/playing" onclick="setTimeout(loadContent, 200);">Playing in DnDTime</a> to learn more about character tiers.</p>
+		<p>If you have never played with us before, select 'New Player'.</p><br>
+		<div class="input-wrap">
+			<input name="entry.1371488662" type="checkbox" value="New Player"> <label>New Player</label>
+		</div>
+		<div class="input-wrap">
+			<input name="entry.1371488662" type="checkbox" value="Story Tier"> <label>Story Tier</label>
+		</div>
+		<div class="input-wrap">
+			<input name="entry.1371488662" type="checkbox" value="Fable Boss Battle"> <label>Fable Boss Battle</label>
+		</div>
+		<div class="input-wrap">
+			<input name="entry.1371488662" type="checkbox" value="Fable Tier"> <label>Fable Tier</label>
+		</div>
+		<div class="input-wrap">
+			<input name="entry.1371488662" type="checkbox" value="Myth Boss Battle"> <label>Myth Boss Battle</label>
+		</div>
+		<div class="input-wrap">
+			<input name="entry.1371488662" type="checkbox" value="Myth Tier"> <label>Myth Tier</label>
+		</div><br>
+		<h3>Time Slot Availability</h3>
+		<p>Games are expected to run approximately 1 hour and 15 minutes. Please be on our Discord server and responsive at least 15 minutes prior to the scheduled start time of your game.<br>NOTE: ALL TIMES ARE IN PACIFIC STANDARD TIME (UTC−8:00)</p><br>
+		<div class="input-wrap">
+			<input name="entry.1974668811" type="checkbox" value="Game 1 (6:00 PM — 7:15 PM PT)"> <label>Game 1 (6:00 PM — 7:15 PM PT)</label>
+		</div>
+		<div class="input-wrap">
+			<input name="entry.1974668811" type="checkbox" value="Game 2 (7:30 PM — 8:45 PM PT)"> <label>Game 2 (7:30 PM — 8:45 PM PT)</label>
+		</div>
+		<div class="input-wrap">
+			<input name="entry.1974668811" type="checkbox" value="Game 3 (9:00 PM — 10:15 PM PT)"> <label>Game 3 (9:00 PM — 10:15 PM PT)</label>
+		</div><br>
+		<h3>Legal Agreement</h3>
+		<p>You grant DnDTime non-revocable permission to use, for any purpose, all audio or video recordings of your performance in DnDTime (hereby referred to as the Content). You waive any right to approve or inspect the use of, or to demand compensation for, the Content. You confirm that you are legally able to consent to this agreement and that you have read, understand, and accept the terms.</p><br>
+		<div class="input-wrap select-box">
+			<select name="entry.889205209" required="">
+				<option value="Agree">I AGREE</option>
+				<option value="Disagree">I DO NOT AGREE</option>
+			</select>
+		</div><br>
+		<input type="submit" value="Sign Up!">
+	</form>
+</div>
+</div>
