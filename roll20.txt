@@ -1,1 +1,1 @@
-<img src="assets/favicon.png" onload="location.href='https://app.roll20.net/lfg/listing/77757/'" width="0" height="0">
+<img src="assets/img/favicon.png" onload="window.open('https://app.roll20.net/lfg/listing/77757/', '_blank'); window.history.back();" width="0" height="0">

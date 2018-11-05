@@ -1,16 +1,4 @@
-<h2>Welcome to DnDTime!</h2>
-<p>DnDTime is a Twitch.tv channel and Discord community dedicated to 5th Edition Dungeons & Dragons (D&D). Our premier show, <strong>Pete & Jeremy's DnDTime</strong>, is a series of self-contained, one-shot adventures featuring our viewers! Head on over to <a href="#playing" onclick="setTimeout(loadContent, 200);">Playing in DnDTime</a> to learn more about the game, then <a href="#signups" onclick="setTimeout(loadContent, 200);">sign up to play</a>! We use Discord as our primary means of communication and Roll20 for all dice rolling and character management.</p><br>
-<div class="fabbox">
-<div><a href="https://twitch.tv/dndtime" style="color:#6441A4"><i class="fab fa-twitch"></i></a></div>
-<div><a href="#/discord" style="color:#7289DA"><i class="fab fa-discord"></i></a></div>
-<div><a href="https://twitter.com/DnD_Time" style="color:#1DA1F2"><i class="fab fa-twitter"></i></a></div>
-<div><a href="#/youtube" style="color:#FF0000"><i class="fab fa-youtube"></i></a></div>
-<div><a href="#/roll20"><i class="fab"><img class="r20" src="assets/roll20.png"></i></a></div>
-</div>
-<h2>Our Content</h2>
-<p>We stream all sorts of D&D-related content throughout the week!</p>
-<p><strong>DnDTime Talks.</strong> A talkshow where Pete and Jeremy discuss all things D&D! Each show runs one hour and covers topics ranging from book reviews, to player and dungeon master advice. Wednesdays at 6:30 PM PT - Weekly.</p>
-<p><strong>Pete & Jeremy's DnDTime.</strong> Self-contained, one-shot adventures featuring our viewers! Each adventure runs no longer than one and a half hours, and there are three adventures each week. Adventures are completely self-contained and follow no particular storyline. Fridays at 6:00 PM PT - Weekly.</p>
-<p><strong>DnDTime Behind the Screen.</strong> Learn to prepare simple and engaging one-shot adventures using Roll20! Each show runs about two hours. Jeremy walks through converting 4th Edition <a href="http://www.dmsguild.com/product/110211/">Dungeon Delve</a> adventures for 5th Edition D&D, and sets up the adventure in Roll20. Saturdays at 1:00 PM PT - Two shows per month see the weekly schedule on Discord.</p>
-<p><strong>DnDTime Delves.</strong> Good old-fashioned one-shot dungeon crawl adventures! Each adventure runs between three and four hours. Jeremy runs a cast of four characters through the adventures prepped in <strong>DnDTime Behind the Screen</strong>. Games are self-contained and quite deadly. Sundays at 6:00 PM PT - Two shows per month see the weekly schedule on Discord.</p>
-<p><strong>DnDTime Brews.</strong> Creating high quality homebrew for <strong>Pete & Jeremy's DnDTime</strong>! Each show runs between two and three hours. Pete and Jeremy hang out with the twitch chat and brew new character options, such as races, subclasses, or spells. Sundays at 6:00 PM PT - Two shows per month see the weekly schedule on Discord.</p> 
+<img onload=
+"gdocsfeed('https://docs.google.com/document/d/15D-UlkU4xeanm34x2jYXQ2XrP5Qoi00Qehw62l_L1oU/mobilebasic')"
+src="assets/img/favicon.png" style="display:none;">
+<div id="gdocscontentarea" class="gdocscontentarea"></div>

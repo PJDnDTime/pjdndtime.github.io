@@ -1,1 +1,1 @@
-<img src="assets/favicon.png" onload="location.href='https://www.youtube.com/channel/UCgRhAXT4KEzPhPGhU_BBsSA'" width="0" height="0">
+<img src="assets/img/favicon.png" onload="window.open('https://www.youtube.com/channel/UCgRhAXT4KEzPhPGhU_BBsSA', '_blank'); window.history.back();" width="0" height="0">

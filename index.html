@@ -1,89 +1,205 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pete & Jeremy's DnDTime</title>
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="assets/favicon.png" rel="icon" type="image/png">
-	<link href="assets/dndtime.css" rel="stylesheet">
-	<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Spectral+SC:700|Spectral:400,400i,600,600i" rel="stylesheet">
-	<!-- Start Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104409686-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-104409686-1');
-	</script>
-	<script src="assets/dndtime.js"></script>
-	<!-- End Global site tag (gtag.js) - Google Analytics -->
-	<style>
-		body {
-			background-image: url("assets/bg.jpg");
-		}
-	</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="assets/img/favicon.png" rel="icon" type="image/png">
+<link href="assets/font/font.css" rel="stylesheet">
+<link href="assets/style.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Spectral:400,400i,700,700i" rel="stylesheet">
+<link rel="stylesheet" href="assets/audio/css/bbplayer.css">
+<base target="_top" />
 </head>
 <body onload="loadContent();">
-	<div class="topnav" id="topnavigationbar">
-		<a href="#/welcome">Home</a><a href="#/signups">Sign Up</a>
-		<div class="dropdown">Bartholomew's Shop <i class="fa fa-caret-down"></i>
-		<div class="dropdown-content">
-		<a href="#/shop">Bartholomew's Shop</a>
-		<a href="#/enchanting">Bartholomew's Guide to Enchanting</a>
-		<a href="#/itemsubmissions">Item Submissions</a>
-		<a href="#/backroom">The Back Room…</a>
-		</div></div>
-		<div class="dropdown">Playing in DnDTime <i class="fa fa-caret-down"></i>
-		<div class="dropdown-content">
-		<a href="#/playing">Rules & Joining the Game</a>
-		<a href="#/brews">DnDTime Brews</a>
-		</div></div>
-		<a href="#/fanart">Fan Art</a>
-		<div class="dropdown">Characters <i class="fa fa-caret-down"></i>
-		<div class="dropdown-content">
-		<a href="#/heroes">Character Lookup</a>
-		<a href="#/hallofheroes">The Hall of Heroes</a>
-		</div></div>
-		<a href="#/items">Items</a>
-		<a href="#/players">Players</a>
-		<a href="#/about">About</a>
-		<a href="#/faq">FAQ</a>
-		<a class="icon" href="javascript:void(0);" onclick="navFunction()"><i class="fa fa-bars"></i></a>
-	</div>
-	<div class="notpaper">
-		<h1>Pete & Jeremy's DnDTime</h1>
-		<p class="music">Pete and Jeremy's DnDTime - Theme Music<br>
-		<audio controls="" id="audioplayer"><source src="assets/PJDnDTimeTheme.mp3" type="audio/mp3"></audio></p>
-		<div id="DnDTimeAjaxObject">
-			<h2>Welcome to DnDTime!</h2>
-			<p>DnDTime is a Twitch.tv channel and Discord community dedicated to 5th Edition Dungeons & Dragons (D&D). Our premier show, <strong>Pete & Jeremy's DnDTime</strong>, is a series of self-contained, one-shot adventures featuring our viewers! Head on over to <a href="#playing">Playing in DnDTime</a> to learn more about the game, then <a href="#signups">sign up to play</a>! We use Discord as our primary means of communication and Roll20 for all dice rolling and character management.</p><br>
-			<div class="fabbox">
-				<div>
-					<a href="https://twitch.tv/dndtime" style="color:#6441A4"><i class="fab fa-twitch"></i></a>
-				</div>
-				<div>
-					<a href="#/discord" style="color:#7289DA"><i class="fab fa-discord"></i></a>
-				</div>
-				<div>
-					<a href="https://twitter.com/DnD_Time" style="color:#1DA1F2"><i class="fab fa-twitter"></i></a>
-				</div>
-				<div>
-					<a href="#/youtube" style="color:#FF0000"><i class="fab fa-youtube"></i></a>
-				</div>
-				<div>
-					<a href="#/roll20"><i class="fab"><img class="r20" src="assets/roll20.png"></i></a>
-				</div>
-			</div>
-			<h2>Our Content</h2>
-			<p>We stream all sorts of D&D-related content throughout the week!</p>
-			<p><strong>DnDTime Talks.</strong> A talkshow where Pete and Jeremy discuss all things D&D! Each show runs one hour and covers topics ranging from book reviews, to player and dungeon master advice. Wednesdays at 6:30 PM PT - Weekly.</p>
-			<p><strong>Pete & Jeremy's DnDTime.</strong> Self-contained, one-shot adventures featuring our viewers! Each adventure runs no longer than one and a half hours, and there are three adventures each week. Adventures are completely self-contained and follow no particular storyline. Fridays at 6:00 PM PT - Weekly.</p>
-			<p><strong>DnDTime Behind the Screen.</strong> Learn to prepare simple and engaging one-shot adventures using Roll20! Each show runs about two hours. Jeremy walks through converting 4th Edition <a href="http://www.dmsguild.com/product/110211/">Dungeon Delve</a> adventures for 5th Edition D&D, and sets up the adventure in Roll20. Saturdays at 1:00 PM PT - Two shows per month see the weekly schedule on Discord.</p>
-			<p><strong>DnDTime Delves.</strong> Good old-fashioned one-shot dungeon crawl adventures! Each adventure runs between three and four hours. Jeremy runs a cast of four characters through the adventures prepped in <strong>DnDTime Behind the Screen</strong>. Games are self-contained and quite deadly. Sundays at 6:00 PM PT - Two shows per month see the weekly schedule on Discord.</p>
-			<p><strong>DnDTime Brews.</strong> Creating high quality homebrew for <strong>Pete & Jeremy's DnDTime</strong>! Each show runs between two and three hours. Pete and Jeremy hang out with the twitch chat and brew new character options, such as races, subclasses, or spells. Sundays at 6:00 PM PT - Two shows per month see the weekly schedule on Discord.</p>
-		</div><!-- End Page content -->
-	</div>
-	<div id="nullspace" style="width:100%;height:100px;">
+<div class="stickydiv" style="display:flex;background-color:#1c1c1c;height:49px;width:calc(100% - 16px);margin:6px auto!important;color:white;">
+<div class="menuboxcontainer snav" onclick="menubarx(this);navtoggle();">
+  <div class="menubarbar1"></div>
+  <div class="menubarbar2"></div>
+  <div class="menubarbar3"></div>
 </div>
+<div class="vhcentered headerlink">Catch us live on <a class="headerlink" href="https://www.twitch.tv/dndtime/">Twitch.TV/DnDTime</a></div>
+<div class="musboxcontainer vcentered" onclick="jukeboxtoggle();">
+  <div class="unselectable" style="margin-top:-5px;">&#x266b;</div>
+</div>
+</div>
+<div class="headerbox"><h1>Pete & Jeremy's DnDTime</h1></div>
+<div class="bodybox">
+<div class="vnavbox hidebox" id="vnavbox">
+<img src="assets/img/scrolltop.png" style="margin-bottom:-4px;">
+<div class="vnav">
+
+<a href="#/welcome"><button class="noaccordion">Welcome</button></a>
+
+<button class="accordion">Pete and Jeremy's DnDTime &#x25BE</button>
+<div class="panel">
+<a href="#/pj/show">What is Pete and Jeremy's DnDTime?</a><br>
+<a href="#/pj/signups">Sign Up to Play</a><br>
+<a href="#/pj/rules">The Rules</a><br>
+<a href="#/pj/playing" class="subnav">Playing the Game</a><br>
+<a href="#/pj/shop">Bartholomew's Shop</a><br>
+<a href="#/pj/enchanting" class="subnav">Bartholomew's Guide to Enchanting</a><br>
+<a href="#/pj/itemsubmissions" class="subnav">Item Submissions</a><br>
+<a href="#/pj/choice" class="subnav">Bartholomew's Choice</a><br>
+<a href="#/pj/backroom" class="subnav">The Back Room...</a><br>
+<a href="#/pj/characters">Character Codex</a><br>
+<a href="#/pj/hallofheroes">The Hall of Heroes</a><br>
+<a href="#/pj/faq">Frequently Asked Questions</a>
+</div>
+
+<button class="accordion">DnDTime Brews &#x25BE</button>
+<div class="panel">
+<a href="#/brews/show">What is DnDTime Brews?</a><br>
+<a href="#/brews/homebrew">Homebrew Compendium</a><br>
+<a href="#/brews/topics">Future Topics</a>
+</div>
+
+<a href="#/art"><button class="noaccordion">The Art Gallery</button></a>
+
+<a href="#/about"><button class="noaccordion">About DnDTime</button></a>
+
+</div>
+<img src="assets/img/scrollbot.png" style="margin-top:0px;">
+</div>
+
+<div class="clipbox" id="clipbox">
+<hr class="dropshadow_hr">
+<div class="contentbox" id="contentbox">
+<img onload=
+"gdocsfeed('https://docs.google.com/document/d/15D-UlkU4xeanm34x2jYXQ2XrP5Qoi00Qehw62l_L1oU/mobilebasic')"
+src="assets/img/favicon.png" style="display:none;">
+<div id="gdocscontentarea" class="gdocscontentarea"></div>
+</div>
+</div>
+
+<div class="jukebox" id="jukebox">
+<div class="bbplayer" style="position:absolute;bottom:0%;background-color: rgb(365,365,365,0.95)">
+   <span class="bb-rewind"></span>
+   <span class="bb-play"></span>
+   <span class="bb-forward"></span> &nbsp;
+   <span class="bb-trackTime"></span> <b style="font-size:10px;">&nbsp;&#10744;&nbsp;&nbsp;</b>
+   <span class="bb-trackLength"></span>
+   <span class="bb-trackTitle"></span>
+   <audio>
+      <source src="assets/audio/DnDTime Original Theme.ogg"/>
+      <source src="assets/audio/DnDTime Original Theme.mp3"/>
+      <source src="assets/audio/Halloween Time 2018 Theme.ogg"/>
+      <source src="assets/audio/Halloween Time 2018 Theme.mp3"/>
+      <source src="assets/audio/Jazz Time Theme.ogg"/>
+      <source src="assets/audio/Jazz Time Theme.mp3"/>
+   </audio>
+</div>
+</div>
+</div>
+</div>
+<script>
+// Utility: Use AJAX to load raw HTML from text sources
+// Implementation: Update on web page # change
+function loadContent() {
+	var dynamicContent = location.hash.substr( 1 );
+	if ( dynamicContent.indexOf( "redirlink=" ) !== -1 ) {
+		var redirlink = dynamicContent.substr( 10 );
+		window.open(redirlink, '_blank');
+		window.history.back();	
+	} else {
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if ( this.readyState == 4 && this.status == 200 ) {
+				document.getElementById( "contentbox" ).innerHTML = this.responseText;
+				if ( dynamicContent == "/pj/signups" ) { 
+					showhide();
+				}
+			}
+		};
+		if ( dynamicContent == "" ) {
+			var dynamicContent = "welcome";
+		};
+		xhttp.open( "GET", dynamicContent + ".txt", true );
+		xhttp.send();
+		window.scrollTo( 0, 0 );
+	}
+}
+
+	
+// Utility: Use AJAX to import Google Documents html as dynamic content.
+// Implementation: gdocsfeed('https://docs.google.com/document/d/URL0123456789/mobilebasic')
+var gdocscontent;
+function gdocsfeed(gdocscontent) {
+	var gdocsxhttp = new XMLHttpRequest();
+	gdocsxhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			document.getElementById("gdocscontentarea").innerHTML = this.responseText;
+		}
+	};
+	gdocsxhttp.open( "GET", gdocscontent, true );
+	gdocsxhttp.send();
+	window.scrollTo( 0, 0 );
+}
+
+
+// Check for changed anchor navigation
+window.onhashchange = loadContent;
+
+
+// Hide & show sign-ups based on date and time
+function showhide() {
+	var d = new Date();
+	var dd = d.getDay();
+	var signupON = document.getElementById( 'signupEnabled' );
+	var signupOFF = document.getElementById( 'signupDisabled' );
+	signupON.style.display = ( signupON.style.display == 'block' ) && ( ( dd == 4 ) || ( dd == 5 ) || ( dd == 6 ) ) ? 'none' : 'block';
+	signupOFF.style.display = ( signupOFF.style.display == 'none' ) && ( ( dd == 4 ) || ( dd == 5 ) || ( dd == 6 ) ) ? 'block' : 'none';
+}
+
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+	acc[i].addEventListener("click", function() {
+		var panel = this.nextElementSibling;
+		if (panel.style.maxHeight){
+			panel.style.maxHeight = null;
+		} else {
+			panel.style.maxHeight = panel.scrollHeight + "px";
+		} 
+	});
+}
+
+
+function navtoggle() {
+	$('#vnavbox').toggleClass('hidebox');
+	$('#clipbox').toggleClass('hidebox');
+}
+
+
+function jukeboxtoggle() {
+	$('#jukebox').toggle();
+}
+
+
+//Toggles the navigation menu box from 'three lines' to an 'x' when navigation menu is active
+function menubarx(x) {
+	x.classList.toggle("menubarxtoggle");
+}
+
+
+//Shows a 'drop shadow div' on scroll
+$('#contentbox').scroll(function () {
+	var y = $(this).scrollTop();
+	if (y > 10) {
+		$('.dropshadow_hr').fadeIn();
+	} else {
+		$('.dropshadow_hr').fadeOut();
+	}
+});
+</script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-104409686-1');
+</script> 
+<script src="assets/audio/js/bbplayer.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104409686-1"></script>
 </body>
 </html>

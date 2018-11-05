@@ -1,2 +1,0 @@
-<h2>Magic Items From Bartholomew's Big Bag Bonanza</h2><br><br>
-<iframe data-type="AwesomeTableView" frameborder="0" id="152408218849233" name="152408218849233" src="https://view-awesome-table.com/-LAP5i-M-pLrT539_ivy/view" style="height:850px; width:100%">Loading...</iframe>
