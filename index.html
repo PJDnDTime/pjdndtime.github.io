@@ -142,12 +142,13 @@ window.onhashchange = loadContent;
 
 // Hide & show sign-ups based on date and time
 function showhide() {
-	var d = new Date();
-	var dd = d.getDay();
-	var signupON = document.getElementById( 'signupEnabled' );
-	var signupOFF = document.getElementById( 'signupDisabled' );
-	signupON.style.display = ( signupON.style.display == 'block' ) && ( ( dd == 4 ) || ( dd == 5 ) || ( dd == 6 ) ) ? 'none' : 'block';
-	signupOFF.style.display = ( signupOFF.style.display == 'none' ) && ( ( dd == 4 ) || ( dd == 5 ) || ( dd == 6 ) ) ? 'block' : 'none';
+	var datelocal = new Date();
+    	var datepst = new Date(datelocal.getTime() + datelocal.getTimezoneOffset() * 60 * 1000 - 8 * 60 * 60 * 1000);
+	var dd = datepst.getDay();
+	if ( dd === 4 ) {
+		$('#signupEnabled').toggle();
+		$('#signupDisabled').toggle();
+	};
 }
 
 
