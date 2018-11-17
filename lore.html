@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="assets/img/favicon.png" rel="icon" type="image/png">
+</head>
+<body onload="gdocsfeed('https://docs.google.com/document/d/1Sa8oCK7NnU_0I3mqYlAeozkHW-SoeY7xCYiXL3Fq0_c/preview')">
+<div id="gdocscontentarea" class="gdocscontentarea"></div>
+<script>
+// Utility: Use AJAX to import Google Documents html as dynamic content.
+// Implementation: gdocsfeed('https://docs.google.com/document/d/URL0123456789/preview')
+var gdocscontent;
+function gdocsfeed(gdocscontent) {
+	var gdocsxhttp = new XMLHttpRequest();
+	gdocsxhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			document.getElementById("gdocscontentarea").innerHTML = this.responseText;
+		}
+	};
+	gdocsxhttp.open( "GET", gdocscontent, true );
+	gdocsxhttp.send();
+	window.scrollTo( 0, 0 );
+}
+</script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-104409686-1');
+</script> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104409686-1"></script>
+</body>
+</html>
