@@ -91,8 +91,13 @@ src="assets/img/favicon.png" style="display:none;">
 </div>
 </div>
 </div>
-</div>
 <script>
+// Replaces Google Docs #redirect= workaround with a normal link
+$(document).on('click', 'a', function(e){
+	e.originalEvent.currentTarget.href = (e.getAttribute('href').substr(0, window.location.href.length + 11) == window.location.href + "#redirlink=") ? e.getAttribute('href').substr(window.location.href.length + 11) : e.getAttribute('href');
+});
+
+
 // Utility: Use AJAX to load raw HTML from text sources
 // Implementation: Update on web page # change
 function loadContent() {
