@@ -6,7 +6,7 @@
 <p>The sign-up queue resets every week, so remember to enter if you want to play!</p><br>
 <div id="signupDisabled" style="display:none">
 	<h2>Signups are Closed!</h2>
-	<p>Signups for <strong>Pete & Jeremy's DnDTime</strong> are open Sundays through Wednesdays. Come back then!</p>
+	<p>Signups for <strong>Pete & Jeremy's DnDTime</strong> are open Friday through Wednesday. Come back then!</p>
 </div>
 <div id="signupEnabled" style="display:block">
 	
