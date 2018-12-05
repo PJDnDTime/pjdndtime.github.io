@@ -1,1 +1,4 @@
-https://docs.google.com/document/d/11xScHT5uwfNjWtxcvz043kkc7O4SeDLnZGvLLStSqbE/edit?usp=sharing
+<img onload=
+"gdocsfeed('https://docs.google.com/document/d/11xScHT5uwfNjWtxcvz043kkc7O4SeDLnZGvLLStSqbE/mobilebasic')"
+src="assets/img/favicon.png" style="display:none;">
+<div id="gdocscontentarea"></div>
