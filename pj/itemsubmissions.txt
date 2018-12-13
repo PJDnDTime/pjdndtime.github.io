@@ -11,7 +11,7 @@ Each submission must follow the guidelines established in <a href="#/pj/enchanti
 <div>
 <h4>Item submissions are currently unavailable. Check back in the new year once Bartholomew's Shop has been reopened!</h4>
 </div>
-<div style="display:hidden;">
+<div style="display:none;">
 <form action="https://docs.google.com/forms/d/e/1FAIpQLSc1wVZtngQzbC8C258-Zm50nsHz_2Ecea6Xf6Tp2vpDyOSPsA/formResponse" method="post" target="_blank" autocomplete="off"><br>
 <h3>Twitch.TV Username</h3>
 <p><label for="twitch"></label> <input id="twitch" name="entry.2078595832" required="" type="text"><small><i> Do not include any spaces</i></small></p>
