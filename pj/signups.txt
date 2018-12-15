@@ -3,6 +3,8 @@
 <div style="padding-left:10px;padding-top:4px;">
 <h2>Player Queue</h2>
 <p>Register to play in Friday's episode of <strong>Pete & Jeremy's DnDTime</strong>. Sign-ups are available from Sunday through Wednesday, and Friday's players are announced on Thursday on our <a href="#/discord">discord server</a>. Game 1 each week is reserved to prioritize new players, so don't be afraid to sign up if you've never played with us before! For Games 2 and 3, players are selected based on their <strong>points</strong>. Points are earned by watching <a href="https://twitch.tv/dndtime" target="_blank">our stream</a>. Each cumulative hour watched earns one point. Every time a player participates in <strong>Pete & Jeremy's DnDTime</strong>, their point total is halved. Any attempts to abuse our point system will result in a ban from participation in <strong>Pete & Jeremy's DnDTime</strong>.</p>
+<p>DnDTime signups are closed until January! See you all then!</p>
+<div style="display:none">
 <p>The sign-up queue resets every week, so remember to enter if you want to play!</p><br>
 <div id="signupDisabled" style="display:none">
 	<h2>Signups are Closed!</h2>
@@ -58,5 +60,6 @@
 		</div><br>
 		<input type="submit" value="Sign Up!">
 	</form>
+</div>
 </div>
 </div>
