@@ -1,1 +1,2 @@
+<div style="width:100%;height:85px;visibility: hidden;"></div>
 <iframe src="https://canary.discordapp.com/widget?id=307685696062357525&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0"></iframe>
