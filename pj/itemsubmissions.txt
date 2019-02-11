@@ -18,10 +18,10 @@
 <br />
 <h3>Item Tier</h3>
 <br /><br />
-<div><input name="entry.191102696" type="checkbox" value="Story" /><label>Story</label></div>
-<div><input name="entry.191102696_sentinel" type="checkbox" value="Fabled" /><label>Fabled</label></div>
-<div><input name="entry.191102696_sentinel" type="checkbox" value="Myth" /><label>Myth</label></div>
-<div><input name="entry.191102696_sentinel" type="checkbox" value="Legend" /><label>Legend</label></div>
+<div><input name="entry.191102696" type="checkbox" value="Story" /><label>Story (Uncommon)</label></div>
+<div><input name="entry.191102696_sentinel" type="checkbox" value="Fabled" /><label>Fabled (Rare)</label></div>
+<div><input name="entry.191102696_sentinel" type="checkbox" value="Myth" /><label>Myth (Very Rare)</label></div>
+<div><input name="entry.191102696_sentinel" type="checkbox" value="Legend" /><label>Legend (Legendary)</label></div>
 <h3>Item Description</h3>
 <p><textarea name="entry.60222041" rows="10">Your item description here...</textarea></p>
 <br /><input type="submit" value="Submit your item!" /></form></div>
