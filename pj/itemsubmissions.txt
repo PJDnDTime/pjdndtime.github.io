@@ -1,3 +1,4 @@
+<div style="width:100%;height:85px;visibility: hidden;"></div>
 <div>
 <h2>Item Submissions</h2>
 <p>Bartholomew is always looking for new and exciting items to add to the Big Bag Bonanza! If you have idea for an item that you would like to share, submit it here. If we think the item would be a good match for DnDTime, we'll throw it in the bag. If an item that you create is pulled from the bag, we will credit you on the stream for your contribution. Those who submit quality items on a regular basis will be rewarded with a one-time, 500 Bartholomew Buck 'Thank You' at Pete &amp; Jeremy's discretion.</p>
