@@ -13,7 +13,7 @@
 <h3>Item Keywords</h3>
 <br /><br />
 <div><input name="entry.1717208205_sentinel" type="checkbox" value="Consumable" /><label>Consumable</label></div>
-<div><input name="entry.1717208205_sentinel" type="checkbox" value="Cursed" /><label>Cursed</label></div>
+<div style="display:none;"><input name="entry.1717208205_sentinel" type="checkbox" value="Cursed" /><label>Cursed</label></div>
 <div><input name="entry.1717208205_sentinel" type="checkbox" value="Requires Attunement" /><label>Requires Attunement</label></div>
 <br />
 <h3>Item Tier</h3>
