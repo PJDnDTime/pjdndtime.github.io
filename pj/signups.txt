@@ -36,7 +36,11 @@
 		</div>
 		<div class="input-wrap">
 			<input name="entry.1371488662" type="checkbox" value="Myth Tier"> <label>Myth Tier</label>
-		</div><br>
+		</div>
+		<div class="input-wrap">
+			<input name="entry.1371488662" type="checkbox" value="Legend Tier"> <label>Legend Tier</label>
+		</div>
+		<br>
 		<h3>Time Slot Availability</h3>
 		<p>Games are expected to run approximately 1 hour and 15 minutes. Please be on our Discord server and responsive at least 15 minutes prior to the scheduled start time of your game.<br>NOTE: ALL TIMES ARE IN PACIFIC STANDARD TIME (UTC−8:00)</p><br>
 		<div class="input-wrap">
