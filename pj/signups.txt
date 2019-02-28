@@ -44,13 +44,13 @@
 		<h3>Time Slot Availability</h3>
 		<p>Games are expected to run approximately 1 hour and 15 minutes. Please be on our Discord server and responsive at least 15 minutes prior to the scheduled start time of your game.<br>NOTE: ALL TIMES ARE IN PACIFIC STANDARD TIME (UTC−8:00)</p><br>
 		<div class="input-wrap">
-			<input name="entry.1974668811" type="checkbox" value="Game 1 (6:00 PM — 7:15 PM PT)"> <label>Game 1 (6:00 PM — 7:15 PM PT)</label>
+			<input name="entry.1974668811" type="checkbox" value="Game 1 (6:00 PM — 7:15 PM PT)"> <label>Game 1 (6:00 PM PT — 7:30 PM PT)</label>
 		</div>
 		<div class="input-wrap">
-			<input name="entry.1974668811" type="checkbox" value="Game 2 (7:30 PM — 8:45 PM PT)"> <label>Game 2 (7:30 PM — 8:45 PM PT)</label>
+			<input name="entry.1974668811" type="checkbox" value="Game 2 (7:30 PM — 8:45 PM PT)"> <label>Game 2 (7:45 PM PT — 9:15 PM PT)</label>
 		</div>
 		<div class="input-wrap">
-			<input name="entry.1974668811" type="checkbox" value="Game 3 (9:00 PM — 10:15 PM PT)"> <label>Game 3 (9:00 PM — 10:15 PM PT)</label>
+			<input name="entry.1974668811" type="checkbox" value="Game 3 (9:00 PM — 10:15 PM PT)"> <label>Game 3 (9:30 PM PT — 11:00 PM PT)</label>
 		</div><br>
 		<h3>Legal Agreement</h3>
 		<p>You grant DnDTime non-revocable permission to use, for any purpose, all audio or video recordings of your performance in DnDTime (hereby referred to as the Content). You waive any right to approve or inspect the use of, or to demand compensation for, the Content. You confirm that you are legally able to consent to this agreement and that you have read, understand, and accept the terms.</p><br>
