@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC:400,400i,600,600i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Spectral:400,400i,700,700i&display=swap');
+
+a {
+  cursor: pointer;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-repeat: repeat;
+  font-size: 13pt;
+  font-family: "Spectral";
+  font-weight: 500;
+  overflow: visible;
+  margin: 0px;
+  height: 100%;
+}
+
+.loreFrame {
+  height: calc(100vh - 42px) !important;
+  width: 100%;
+  overflow: hidden;
+}
+
+.fanartFrame {
+  height: calc(100vh - 250px) !important;
+  width: 100%;
+  overflow: hidden;
+}
+
+hr {
+  height:1px;
+  border:none;
+  color:#000;
+  background-color:#000;
+}
+
+
+html {
+  min-height: 100%;
+  overflow: visible;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  color: #980000;
+  font-weight: 600;
+  font-size: 24pt;
+  line-height: 1.25;
+  page-break-after: avoid;
+  font-family: "Spectral SC";
+  text-align: left;
+}
+
+h2 {
+  padding-top: 0pt;
+  margin: 0;
+  color: #980000;
+  border-bottom-color: #bf9000;
+  font-weight: 600;
+  padding-left: 0;
+  font-size: 16pt;
+  padding-bottom: 2pt;
+  line-height: 1.0;
+  page-break-after: avoid;
+  border-bottom-width: 1.5pt;
+  font-family: "Spectral SC";
+  border-bottom-style: solid;
+  text-align: left;
+  padding-right: 0
+}
+
+p {
+  padding-top: 7pt;
+  margin: 0;
+  color: #000000;
+  padding-left: 0;
+  padding-bottom: 0pt;
+  line-height: 1.25;
+  font-family: "Spectral";
+  text-align: left;
+  padding-right: 0;
+}
+
+.youtubeWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	width: 100%;
+}
+
+.youtube {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	max-width: 853px;
+	max-height: 480px;
+}

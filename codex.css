@@ -1,0 +1,26 @@
+#codex {
+  border-collapse: collapse;
+  width: 100%;
+}
+.block {
+  display: block;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.item:hover {
+  font-weight: bold;
+  color: #990000;
+}
+.idesc {
+  font-weight: normal !important;
+  color: black;
+  font-style: italic;
+}
+.stickycodex {
+  position: -webkit-sticky;  /* Safari */
+  position: sticky;
+  top: 24px;
+  z-index: 1;
+  background-image: url("bg.jpg");
+  background-repeat: repeat;
+}

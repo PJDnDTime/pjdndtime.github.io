@@ -1,4 +1,0 @@
-<img onload=
-"gdocsfeed('https://docs.google.com/document/d/1qd6iMYizn3wPo9_TRV9zHXVzm0wWmrxWkAyUEAp9f5w/mobilebasic')"
-src="assets/img/favicon.png" style="display:none;">
-<div id="gdocscontentarea"></div>

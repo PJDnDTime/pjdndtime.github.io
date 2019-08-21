@@ -1,7 +1,0 @@
-<title>The Art Gallery</title>
-<div style="width:100%;height:85px;visibility: hidden;"></div>
-<div style="padding-left:10px;padding-top:4px;">
-<h2>Fan Art</h2>
-<p>Check the awesome fanart drawn by members of the DnDTime community! To submit your own, follow the instrucions on our discord server!</p>
-<iframe src="art.html" frameborder="0" height="525px" width="100%"></iframe>
-</div>

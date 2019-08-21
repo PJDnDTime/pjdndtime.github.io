@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       @import "forms.css";
+    </style>
+  </head>
+<body>
+  <div>
+    <p style="padding-top:7pt;margin:0;color:#000000;font-weight:500;padding-left:0;font-size:13pt;padding-bottom:0pt;line-height:1.25;font-family:&quot;Spectral&quot;;orphans:2;widows:2;height:13pt;text-align:left;padding-right:0"><span style="color:#000000;font-weight:500;text-decoration:none;vertical-align:baseline;font-size:2pt;font-family:&quot;Spectral&quot;;font-style:normal"></span></p>
+  </div>
+  <div>
+    <h1>Player Queue</h1>
+    <p>Sign up today to play in this Friday's episode of <strong>Pete & Jeremy's DnDTime</strong>. We announce Friday's scheduled players on Thursday on our <a href="#discord" target="_blank">Discord Server</a>. The first adventure each week has special priority for new players, so don't be afraid to sign up if you've never played with us before! The players in the second and third adventures are selected as follows: The higher your point total, the higher your priority to play. You earn points automatically for every fifteen minutes you spend watching any of our streams on <a href="https://twitch.tv/dndtime" target="_blank">Twitch.TV</a>. Each time you play in our show, your current point total is halved. If you sign up to play, but aren't scheduled to play that week, you'll receive 10 bonus points to help you get into a game the next time you sign up.</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sign-ups reset every week after players are announced, and are open Friday through Wednesday. Don't forget to sign up each week that you want to play!</p>
+    <div id="signupDisabled" style="display:none">
+      <br>
+      <h2>Sign-ups are closed!</h2>
+      <p>Sign-ups are open Friday through Wednesday. Come back then!</p>
+    </div>
+    <div id="signupEnabled" style="display:block">
+      <div class="formcontainer">
+        <br>
+        <h2>Sign up to Play in Pete & Jeremy's DnDTime!</h2>
+        <div style="padding-top:15px;"></div>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfmHQlJSo91YWr8z8fV9vEoml5IZOrlnDW_4DfRIbt1XZwfFQ/formResponse" method="post" onsubmit="alert('You have successfully signed up for Pete & Jeremy's DnDTime!');" target="dummyframe">
+          <label for="twitch"><strong>Twitch.TV Username</strong><br>
+          <small></small></label> <input id="twitch" name="entry.192629599" placeholder="Do not include spaces!" required="" type="text">
+          <div style="padding-top:10px;"></div><label for="discord"><strong>Discord Username</strong></label> <input id="discord" name="entry.1864134744" placeholder="e.g. Example#1234" required="" type="text">
+          <div style="padding-top:10px;"></div><label><strong>Tier Preference</strong><br>
+          <small><i>Characters in Pete & Jeremy's DnDTime are assigned an adventuring tier based on their character level. Select the tiers that you would like to play. Do not pick a tier if you do not have a character of the appropriate level. Learn about adventuring tiers <a href="#playing">here</a>.</i></small></label>
+          <div style="padding-top:5px;"></div>
+          <div style="display:flex; justify-content:left; flex-wrap:wrap;">
+            <div class="input-wrap">
+              <input name="entry.1371488662" type="checkbox" value="New Player"> <label><small>New Player</small></label>
+            </div>
+            <div class="input-wrap">
+              <input name="entry.1371488662" type="checkbox" value="Story Tier"> <label><small>Story Tier</small></label>
+            </div>
+            <div class="input-wrap">
+              <input name="entry.1371488662" type="checkbox" value="Fable Boss Battle"> <label><small>Fable Boss Battle</small></label>
+            </div>
+            <div class="input-wrap">
+              <input name="entry.1371488662" type="checkbox" value="Fable Tier"> <label><small>Fable Tier</small></label>
+            </div>
+            <div class="input-wrap">
+              <input name="entry.1371488662" type="checkbox" value="Myth Boss Battle"> <label><small>Myth Boss Battle</small></label>
+            </div>
+            <div class="input-wrap">
+              <input name="entry.1371488662" type="checkbox" value="Myth Tier"> <label><small>Myth Tier</small></label>
+            </div>
+            <div class="input-wrap">
+              <input name="entry.1371488662" type="checkbox" value="Legend Tier"> <label><small>Legend Tier</small></label>
+            </div>
+          </div>
+          <div style="padding-top:15px;"></div><label><strong>Time Slot Availability</strong><br>
+          <small><i>Each adventure runs between an hour and a half and two hours. You must be on our <a href="#discord" target="_blank">Discord Server</a> and responsive to messages at least 15 minutes prior to the scheduled start time of an adventure that you are scheduled.</i></small></label>
+          <div style="padding-top:5px;"></div>
+          <div style="display:flex; justify-content:left; flex-wrap:wrap;">
+            <div class="input-wrap2">
+              <input name="entry.1974668811" type="checkbox" value="Game 1 (6:00 PM — 7:15 PM PT)"> <label><small>Game 1 (6:00 — 7:30 PM PT)</small></label>
+            </div>
+            <div class="input-wrap2">
+              <input name="entry.1974668811" type="checkbox" value="Game 2 (7:30 PM — 8:45 PM PT)"> <label><small>Game 2 (7:45 — 9:15 PM PT)</small></label>
+            </div>
+            <div class="input-wrap2">
+              <input name="entry.1974668811" type="checkbox" value="Game 3 (9:00 PM — 10:15 PM PT)"> <label><small>Game 3 (9:30 — 11:00 PM PT)</small></label>
+            </div>
+          </div>
+          <div style="padding-top:15px;"></div><label><strong>Legal Agreement</strong><br>
+          <small>You grant DnDTime non-revocable permission to use, for any purpose, all audio or video recordings of your performance in DnDTime (hereby referred to as the Content). You waive any right to approve or inspect the use of, or to demand compensation for, the Content. You confirm that you are legally able to consent to this agreement and that you have read, understand, and accept the terms.</small></label>
+          <div style="padding-top:5px;"></div>
+          <div class="input-wrap select-box" style="width:300px;">
+            <select name="entry.889205209" required="">
+              <option value="Agree">
+                I AGREE
+              </option>
+              <option value="Disagree">
+                I DO NOT AGREE
+              </option>
+            </select>
+          </div>
+          <div style="padding-top:5px;"></div><input type="submit" value="Sign Up!">
+        </form>
+      </div>
+    </div>
+  </div><iframe frameborder="0" height="0" id="dummyframe" name="dummyframe" width="0"></iframe> 
+  <script>
+    var thursday = new Date().getDay();
+    if (thursday == 4) {
+        $("#signupEnabled").hide();
+        $("#signupDisabled").show();
+    }
+  </script><br>
+  <br>
+</body>
+</html>

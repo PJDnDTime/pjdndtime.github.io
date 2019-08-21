@@ -1,1 +1,0 @@
-<img src="assets/img/favicon.png" onload="window.open('https://docs.google.com/spreadsheets/d/1YQI7dJIB4S3BgphWBuXM9i0dnAcckD5UFg5XvUbQKYg/', '_blank'); window.history.back();" width="0" height="0">

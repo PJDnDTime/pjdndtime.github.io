@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="searchOptions" class="stickycodex">
+
+<div><p style="padding-top:7pt;margin:0;color:#000000;font-weight:500;padding-left:0;font-size:13pt;padding-bottom:0pt;line-height:1.25;font-family:&quot;Spectral&quot;;orphans:2;widows:2;height:13pt;text-align:left;padding-right:0"><span style="color:#000000;font-weight:500;text-decoration:none;vertical-align:baseline;font-size:2pt;font-family:&quot;Spectral&quot;;font-style:normal"></span></p></div>
+	
+<h1>Character Codex</h1>
+
+<p>
+<input class="search" id="searchChar" type="text" onchange="codexFilter()" placeholder="Character..." size="12">
+<input class="search" id="searchTwitch" type="text" onchange="codexFilter()" placeholder="Twitch User..." size="12">
+<input class="search" id="searchRace" type="text" onchange="codexFilter()" placeholder="Race..." size="12">
+<input class="search" id="searchClass" type="text" onchange="codexFilter()" placeholder="Class..." size="12">
+<input class="search" id="searchTier" type="text" onchange="codexFilter()" placeholder="Tier..." size="12">
+<input class="search" id="searchItem" type="text" onchange="codexFilter()" placeholder="Item..." size="12">
+</p><p>
+XP Filter: <input class="search" id="searchXPmin" type="number" onchange="codexFilter()" min="1" max="153" value="1"> — <input id="searchXPmax" type="number" onchange="codexFilter()" min="1" max="153" value="153">
+</p></p><p></p><hr>
+</div>
+<p style="margin-bottom:10px;"></p>
+<table id="codex">
+<tr><td><img style="display:block;margin:auto;" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Ajax-loader.gif"></td></tr>
+</table>
+
+<script>
+
+function codexFilter() {
+  var zChar = $('#searchChar').val().toLowerCase();
+  var zTwitch = $('#searchTwitch').val().toLowerCase();
+  var zRace = $('#searchRace').val().toLowerCase();
+  var zClass = $('#searchClass').val().toLowerCase();
+  var zTier = $('#searchTier').val().toLowerCase();
+  var zItem = $('#searchItem').val().toLowerCase();
+  var zXPmin = parseInt($('#searchXPmin').val());
+  var zXPmax = parseInt($('#searchXPmax').val());
+  $('#codex tr').filter(function() {
+    $(this).toggle(
+      $(this).children('td:nth-child(2)').text().toLowerCase().indexOf(zChar) > -1 &&
+      $(this).children('td:nth-child(3)').text().toLowerCase().indexOf(zTwitch) > -1 &&
+      $(this).children('td:nth-child(4)').text().toLowerCase().indexOf(zRace) > -1 &&
+      $(this).children('td:nth-child(5)').text().toLowerCase().indexOf(zClass) > -1 &&
+      $(this).children('td:nth-child(7)').text().toLowerCase().indexOf(zTier) > -1 &&
+      $(this).children('td:nth-child(7)').text().toLowerCase().indexOf(zTier) > -1 &&
+      $(this).children('td:nth-child(8)').text().toLowerCase().indexOf(zItem) > -1 &&
+      $(this).children('td:nth-child(6)').text().valueOf() >= zXPmin &&
+      $(this).children('td:nth-child(6)').text().valueOf() <= zXPmax
+    )
+  });
+}
+
+$(document).ready(function(){
+	$('#codex').load('https://docs.google.com/spreadsheets/d/e/2PACX-1vRNALnAkLaG2L4LTIQc-3jS_IrdohrKsNdPItwclysWL0CGj7WrpCdX8InxnOJbVtohWmuh--x5bPzn/pub?gid=1808577384&single=true&output=tsv', function(){
+		$('.item').click(function(){
+			$(this).toggleClass('block');
+			$(this).children('.idesc').toggle();
+		});
+	});
+});
+	
+</script>
+</body>
+</html>
