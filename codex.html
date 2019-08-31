@@ -49,16 +49,21 @@ function codexFilter() {
     )
   });
 }
-
 $(document).ready(function(){
-	$('#codex').load('https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8uP9DGEunbw9nHdbM_GuBb943U9fk2CQ5QMFjtmQ4QYOJIX0c6ifNplU_7jQucTchnD1Rnamxmwjw/pub?gid=1167046350&single=true&output=tsv', function(){
-		$('.item').click(function(){
-			$(this).toggleClass('block');
-			$(this).children('.idesc').toggle();
-		});
+	$.ajax({
+		url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8uP9DGEunbw9nHdbM_GuBb943U9fk2CQ5QMFjtmQ4QYOJIX0c6ifNplU_7jQucTchnD1Rnamxmwjw/pub?gid=1167046350&single=true&output=tsv",
+		cache: false,
+		dataType: "html",
+		success: function(data) {
+			$("#codex").html(data, function(){
+				$(".item").click(function(){
+					$(this).toggleClass("block");
+					$(this).children(".idesc").toggle();
+				});
+			});
+	    	}
 	});
-});
-	
+});	
 </script>
 </body>
 </html>
