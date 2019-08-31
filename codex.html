@@ -55,15 +55,14 @@ $(document).ready(function(){
 		cache: false,
 		dataType: "html",
 		success: function(data) {
-			$("#codex").html(data, function(){
-				$(".item").click(function(){
-					$(this).toggleClass("block");
-					$(this).children(".idesc").toggle();
-				});
-			});
+			$("#codex").html(data);
 	    	}
 	});
-});	
+});
+$(".item").click(function(){
+	$(this).toggleClass("block");
+	$(this).children(".idesc").toggle();
+});
 </script>
 </body>
 </html>
