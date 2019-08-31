@@ -59,7 +59,7 @@ $(document).ready(function(){
 	    	}
 	});
 });
-$(".item").click(function(){
+$(document).on("click", '.item', function(event) { 
 	$(this).toggleClass("block");
 	$(this).children(".idesc").toggle();
 });
