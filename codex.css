@@ -4,8 +4,12 @@
 }
 .block {
   display: block;
-  padding-top: 10px;
+  margin-top: 8px;
   font-weight: bold;
+  padding-top: 2px;
+  margin-bottom: 10px;
+  border-top:1px solid lightgrey;
+  border-bottom:1px solid lightgrey;
 }
 .item:hover {
   font-weight: bold;
