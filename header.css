@@ -38,7 +38,8 @@
   position:relative;
   line-height:0;
   width:100%;
-  background-color:#20d8ff;
+/*background-color:#20d8ff;*/ /*blue*/
+  background-color:#ffae20; /*orange*/
   margin: 0px;
   overflow: visible;
 }
@@ -56,7 +57,7 @@
   background-repeat: repeat;
   overflow: visible;
   min-height: 100%;
-  max-width:100%;
+  max-width: 100%;
   left:0;
 }
 
