@@ -9,7 +9,7 @@
   }
   .desktop {
     display: flex !important;
-    justify-content: space-between;
+    justify-content: space-between !important;
   }
   .mobile {
     display: none !important;
