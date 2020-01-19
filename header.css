@@ -79,10 +79,10 @@
 
 .subnav {
   width: 100%;
-  padding: 0 40px;
+  padding: 0 20px;
   table-layout: fixed;
   vertical-align: middle;
-  line-height: 30px;
+  line-height: 1.75;
   background-image: url("bg.jpg");
   background-repeat: repeat;
 }
