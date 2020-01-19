@@ -11,8 +11,26 @@
 </div>
 
 <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-<script>$('#gallerypreload').load('https://docs.google.com/spreadsheets/d/e/2PACX-1vSWdy8cJiSoLBLPFpuAPg4YoNHCJCMNOD0hizJOS5q4G3JIOgC8GZR2p4x4ziq2uCxqIPyiwdTE28GA/pub?gid=0&single=true&output=tsv');</script>
-<script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
+<script>
+  function artFeed() {
+			  var xhttp = new XMLHttpRequest();
+			  xhttp.onreadystatechange = function() {
+			    if (this.readyState == 4 && this.status == 200) {
+			      parseArtFeed(this);
+			    }
+			  }
+			  xhttp.open("GET", "https://spreadsheets.google.com/feeds/cells/11NfIUCYrh4ie1tZfil-SyDNZtHOyVCYtq21YLOjxvrc/1/public/values");
+			  xhttp.send();
+			}
+			function parseArtFeed(xml) {
+			  var xmlDoc = xml.responseXML;
+			document.getElementById("gallerypreload").innerHTML = xmlDoc.getElementsByTagName("gs:cell")[0].childNodes[0].nodeValue;
+			}
+			// on first page load, initialize and start refresh interval
+			artFeed();
+			setInterval(artFeed, 300000); // 300 seconds.
+  </script>
+  <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
 <script type='text/javascript' src='unitegallery/themes/tiles/ug-theme-tiles.js'></script>
 </body>
 </html>
