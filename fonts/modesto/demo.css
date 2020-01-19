@@ -1,8 +1,12 @@
-    @font-face{
-        font-family:"Modesto W01 Bold Text";
-        src:url("Fonts/934123/3529fd01-d392-414d-a782-47ab1527d467.eot?#iefix");
-        src:url("Fonts/934123/3529fd01-d392-414d-a782-47ab1527d467.eot?#iefix") format("eot"),url("Fonts/934123/1e07b3ab-8a4e-4807-9c83-1588746295d7.woff2") format("woff2"),url("Fonts/934123/f2d63177-1a24-40fe-b2f6-caeab675e744.woff") format("woff"),url("Fonts/934123/d491f953-6f7b-433f-82ac-c9a5a5d35a93.ttf") format("truetype");
-    }
+@font-face {
+				font-family: 'Modesto W01 Bold Text';
+				src: url('fonts/modesto/modesto.eot');
+				src: url('fonts/modesto/modesto.eot') format('embedded-opentype'),
+					url('fonts/modesto/modesto.woff2') format('woff2'),
+					url('fonts/modesto/modesto.woff') format('woff'),
+					url('fonts/modesto/modesto.ttf') format('truetype'),
+					url('fonts/modesto/modesto.svg#modesto') format('svg');
+			}
 	nav > a, .subnav tr td > a {
 	font-family:"Modesto W01 Bold Text";
 	}
