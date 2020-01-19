@@ -1,11 +1,11 @@
 @font-face {
 				font-family: 'Modesto W01 Bold Text';
-				src: url('fonts/modesto/modesto.eot');
-				src: url('fonts/modesto/modesto.eot') format('embedded-opentype'),
-					url('fonts/modesto/modesto.woff2') format('woff2'),
-					url('fonts/modesto/modesto.woff') format('woff'),
-					url('fonts/modesto/modesto.ttf') format('truetype'),
-					url('fonts/modesto/modesto.svg#modesto') format('svg');
+				src: url('modesto.eot');
+				src: url('modesto.eot') format('embedded-opentype'),
+					url('modesto.woff2') format('woff2'),
+					url('modesto.woff') format('woff'),
+					url('modesto.ttf') format('truetype'),
+					url('modesto.svg#modesto') format('svg');
 			}
 	nav > a, .subnav tr td > a {
 	font-family:"Modesto W01 Bold Text";
