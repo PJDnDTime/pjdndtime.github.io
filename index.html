@@ -203,13 +203,26 @@
     <div class="bodyCon">
       <div id="siteContentArea"></div>
     </div>
-  <script id='siteContentScript'></script>
+  <script id='navData'></script>
   <script>
-    $.ajaxSetup ({
-      // Disable caching of AJAX responses
-      cache: false
-    });
-    $('#siteContentScript').load('https://docs.google.com/spreadsheets/d/e/2PACX-1vQRsy3juRbAUCRvROgxEK9IX7a67D09gD_Oz2RDHTJ2NsCV54JfLFWoTvOaNDk80w2xtaAofKDnIBNJ/pub?gid=0&single=true&output=tsv');
+    function initDatastream() {
+			  var xhttp = new XMLHttpRequest();
+			  xhttp.onreadystatechange = function() {
+			    if (this.readyState == 4 && this.status == 200) {
+			      parseFeed(this);
+			    }
+			  }
+			  xhttp.open("GET", "https://spreadsheets.google.com/feeds/cells/1CiAe5psZJ4C1nVv3xIhnKO7BZow7DljmrIxfe7PKkkU/1/public/values");
+			  xhttp.send();
+			}
+			function parseFeed(xml) {
+			  var xmlDoc = xml.responseXML;
+			document.getElementById("navData").innerHTML = xmlDoc.getElementsByTagName("gs:cell")[0].childNodes[0].nodeValue;
+			}
+			
+			// on first page load, initialize and start refresh interval
+			initDatastream();
+			setInterval(initDatastream, 300000); // 300 seconds.
   </script>
 </body>
 </html>
