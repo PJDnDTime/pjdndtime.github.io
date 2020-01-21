@@ -1,44 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-<iframe frameborder="0" class="fanartFrame">
-<!DOCTYPE html>
-<html>
-<body>
-<div><p style="padding-top:7pt;margin:0;color:#000000;font-weight:500;padding-left:0;font-size:13pt;padding-bottom:0pt;line-height:1.25;font-family:&quot;Spectral&quot;;orphans:2;widows:2;height:13pt;text-align:left;padding-right:0"><span style="color:#000000;font-weight:500;text-decoration:none;vertical-align:baseline;font-size:2pt;font-family:&quot;Spectral&quot;;font-style:normal"></span></p></div>
-
-<link rel="stylesheet" href="../fanart/unitegallery/css/unite-gallery.css" type="text/css" />
-<link rel="stylesheet" href="../fanart/unitegallery/themes/default/ug-theme-default.css" type="text/css" />
-
-<div id="gallerypreload" style="height:100%"> 
-<img style="display:block;margin:auto;" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Ajax-loader.gif">
-</div>
-
-<script type='text/javascript' src='../fanart/unitegallery/js/unitegallery.min.js'></script>
-<script type='text/javascript' src='../fanart/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
-<script>
-function artFeed() {
-	var xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-			parseArtFeed(this);
-		}
-	}
-	xhttp.open("GET", "https://spreadsheets.google.com/feeds/cells/11NfIUCYrh4ie1tZfil-SyDNZtHOyVCYtq21YLOjxvrc/1/public/values");
-	xhttp.send();
-}
-
-function parseArtFeed(xml) {
-	var xmlDoc = xml.responseXML;
-	document.getElementById("gallerypreload").innerHTML = xmlDoc.getElementsByTagName("gs:cell")[0].childNodes[0].nodeValue;
-	$(document).ready(function(){$('#gallery').delay(1000).unitegallery({tiles_type:'nested'});});
-}
-
-// on first page load, initialize
-artFeed();
-  </script>
-</html>
-</body>
-</iframe>
+<iframe frameborder="0" class="fanartFrame" src="../fanart/fanart.html"></iframe>
 </body>
 </html>
