@@ -140,6 +140,15 @@
 			// on first page load, initialize and start refresh interval
 			initDatastream();
 			setInterval(initDatastream, 300000); // 300 seconds.
+
+			// on link load, fix all redirects
+			function fixRedirects() {
+				$('a').each(function(){
+					var updated_link = $(this).attr('href').replace('https://www.dndtime.stream/#https', 'https');
+					$(this).attr('href', updated_link);
+				});
+			}
+			fixRedirects();
   </script>
 </body>
 </html>
