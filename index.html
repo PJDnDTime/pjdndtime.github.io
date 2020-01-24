@@ -146,6 +146,7 @@
 				$('a[href*="#https"]').each(function(){
 					this.href = this.href.replace('#https', 'https');
 					this.href = this.href.replace('https://www.dndtime.stream/', '');
+					this.target = "_blank";
 				});
 			}
 			setInterval(fixRedirects, 500); // 0.5 seconds
