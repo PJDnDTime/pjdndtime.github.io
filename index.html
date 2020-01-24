@@ -144,7 +144,7 @@
 			// on link load, fix all redirects
 			function fixRedirects() {
 				$('a').each(function(){
-					var updated_link = $(this).attr('href').replace('https://www.dndtime.stream/#https', 'https');
+					var updated_link = $(this).attr('href').replace('#https', 'https');
 					$(this).attr('href', updated_link);
 				});
 			}
