@@ -149,6 +149,9 @@
 				});
 			}
 			fixRedirects();
+			if ("onhashchange" in window) {
+			  fixRedirects();
+			}
   </script>
 </body>
 </html>
