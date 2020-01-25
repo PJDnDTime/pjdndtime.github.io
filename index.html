@@ -143,29 +143,27 @@
 
 			// on link load, fix all redirects
 			function fixRedirects() {
-				$('a[href^="https://www.dndtime.stream/#https://"]').each(function(){
-					this.href = this.href.replace('https://www.dndtime.stream/#https://', 'https://');
+				$('a[href^="#https"]').each(function(){
+					this.href = this.href.replace('#https', 'https');
 					this.target = "_blank";
 				});
-				$('a[href^="https://dndtime.stream/#https://"]').each(function(){
-					this.href = this.href.replace('https://dndtime.stream/#https://', 'https://');
-					this.target = "_blank";
+				$('a[href^="https://www.dndtime.stream/https"]').each(function(){
+					this.href = this.href.replace('https://www.dndtime.stream/https', 'https');
 				});
-				$('a[href^="http://www.dndtime.stream/#https://"]').each(function(){
-					this.href = this.href.replace('http://www.dndtime.stream/#https://', 'https://');
-					this.target = "_blank";
+				$('a[href^="https://dndtime.stream/https"]').each(function(){
+					this.href = this.href.replace('https://dndtime.stream/https', 'https');
 				});
-				$('a[href^="http://dndtime.stream/#https://"]').each(function(){
-					this.href = this.href.replace('http://dndtime.stream/#https://', 'https://');
-					this.target = "_blank";
+				$('a[href^="http://www.dndtime.stream/https"]').each(function(){
+					this.href = this.href.replace('http://www.dndtime.stream/https', 'https');
 				});
-				$('a[href^="dndtime.stream/#https://"]').each(function(){
-					this.href = this.href.replace('dndtime.stream/#https://', 'https://');
-					this.target = "_blank";
+				$('a[href^="http://dndtime.stream/https"]').each(function(){
+					this.href = this.href.replace('http://dndtime.stream/https', 'https');
 				});
-				$('a[href^="www.dndtime.stream/#https://"]').each(function(){
-					this.href = this.href.replace('www.dndtime.stream/#https://', 'https://');
-					this.target = "_blank";
+				$('a[href^="www.dndtime.stream/https"]').each(function(){
+					this.href = this.href.replace('www.dndtime.stream/https', 'https');
+				});
+				$('a[href^="dndtime.stream/https"]').each(function(){
+					this.href = this.href.replace('dndtime.stream/https', 'https');
 				});
 			}
 			setInterval(fixRedirects, 500); // 0.5 seconds
