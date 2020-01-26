@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="searchOptions" class="stickycodex">
+
+<div><p style="padding-top:7pt;margin:0;color:#000000;font-weight:500;padding-left:0;font-size:13pt;padding-bottom:0pt;line-height:1.25;font-family:&quot;Spectral&quot;;orphans:2;widows:2;height:13pt;text-align:left;padding-right:0"><span style="color:#000000;font-weight:500;text-decoration:none;vertical-align:baseline;font-size:2pt;font-family:&quot;Spectral&quot;;font-style:normal"></span></p></div>
+	
+<h1>MattyMorgs Miniatures Inventory</h1>
+
+<p>
+<input class="search" id="searchSet" type="text" onchange="mmInventoryFilter()" placeholder="Set..." size="12">
+— <input class="search" id="searchName" type="text" onchange="mmInventoryFilter()" placeholder="Figure Name..." size="12"> — Hide Out of Stock<input class="search" id="searchQty" type="checkbox" onchange="mmInventoryFilter()" size="12">
+</p>
+<hr>
+</div>
+<p style="margin-bottom:10px;"></p>
+<table id="mmInventory">
+<tr id='trheader'><th>Set</th><th>Name</th><th>Number</th><th>Price</th><th>In Stock</th></tr>
+<tr id="trspinner"><td><img style="display:block;margin:auto;" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Ajax-loader.gif"></td></tr>
+</table>
+
+<script>
+function mmInventoryFilter() {
+  var zSet = $("#searchSet").val().toLowerCase();
+  var zName = $("#searchName").val().toLowerCase();
+  var zQty = document.getElementById("searchQty").checked ? 1 : 0;
+  $("#mmInventory tr").not("[id*='trheader']").filter(function() {
+    $(this).toggle(
+      $(this).children("td:nth-child(1)").text().toLowerCase().indexOf(zSet) > -1 &&
+      $(this).children("td:nth-child(2)").text().toLowerCase().indexOf(zName) > -1 &&
+      parseInt($(this).children("td:nth-child(5)").text()) >= zQty
+    )
+  });
+}
+</script>
+<script>
+function mmInventoryFeed() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      parseMMInventory(this);
+    }
+  }
+  xhttp.open("GET", "https://spreadsheets.google.com/feeds/cells/1we2UB6n6hTRLrgDj1iLfvoUVlsZpxdEXwca2Y2rjerc/1/public/values");
+  xhttp.send();
+}
+function parseMMInventory(xml) {
+  var xmlDoc = xml.responseXML;
+  var mmInventoryLoop;
+  var mmInventoryData;
+  try{$("#trspinner").remove();}finally{};
+  for (mmInventoryLoop = 0; mmInventoryLoop < 10000; mmInventoryLoop++) {
+    mmInventoryData = xmlDoc.getElementsByTagName("gs:cell")[mmInventoryLoop].childNodes[0].nodeValue;
+    try{$("#mmInventory").append(mmInventoryData);}finally{};
+  }
+}
+// on first page load, initialize and start refresh interval
+mmInventoryFeed();
+</script>
+</body>
+</html>
