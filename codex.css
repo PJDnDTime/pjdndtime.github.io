@@ -2,6 +2,15 @@
   border-collapse: collapse;
   width: 100%;
 }
+#codex td {
+white-space: pre-wrap;
+}
+.item {
+white-space: nowrap;
+}
+.idesc {
+white-space: pre-wrap;
+}
 .block {
   display: block;
   margin-top: 8px;
