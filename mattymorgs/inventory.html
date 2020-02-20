@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+</head>
+<style>
+a {
+  text-decoration:none;
+  color: black;
+}
+a:hover {
+  font-weight: bold;
+}
+</style>
 <body>
 
 <div id="searchOptions" class="stickycodex" style="width:100% overflow:hidden;">
@@ -60,5 +72,7 @@ function parseMMInventory(xml) {
 // on first page load, initialize and start refresh interval
 mmInventoryFeed();
 </script>
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
