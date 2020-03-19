@@ -28,8 +28,8 @@ a:hover {
 <h2 style="margin-bottom:10px;">MattyMorgs Home for Wayward Minis</h2>
 
 <p>
-<input class="search" id="searchSet" type="text" onchange="mmInventoryFilter()" placeholder="Set..." size="12">
-— <input class="search" id="searchName" type="text" onchange="mmInventoryFilter()" placeholder="Figure Name..." size="12"> — Hide Out of Stock<input class="search" id="searchQty" type="checkbox" onchange="mmInventoryFilter()" size="12">
+<input class="search" id="searchSet" type="text" placeholder="Set..." size="12" onkeyup="filterMinisList()" onchange="filterMinisList()">
+— <input class="search" id="searchName" type="text" placeholder="Figure Name..." size="12"onkeyup="filterMinisList()" onchange="filterMinisList()"> — Hide Out of Stock<input class="search" id="searchQty" type="checkbox" size="12"onkeyup="filterMinisList()" onchange="filterMinisList()">
 </p>
 <hr>
 <table style="width: 100%;" style="padding-top:5px;">
@@ -42,7 +42,7 @@ a:hover {
 </table>
 
 <script>
-function mmInventoryFilter() {
+function filterMinisList() {
   var zSet = $("#searchSet").val().toLowerCase();
   var zName = $("#searchName").val().toLowerCase();
   var zQty = document.getElementById("searchQty").checked ? 1 : 0;
