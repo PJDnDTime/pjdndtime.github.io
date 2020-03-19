@@ -26,8 +26,8 @@ a:hover {
 <h2 style="margin-bottom:10px;">MattyMorgs Sponsor Collections</h2>
 
 <p>
-<input class="search" id="sponsorSearch" type="text" onchange="mmInventoryFilter()" placeholder="Sponsor..." size="12">
-— <input class="search" id="searchName" type="text" onchange="mmInventoryFilter()" placeholder="Figure Name..." size="12">
+<input class="search" id="sponsorSearch" type="text" onchange="mmInventoryFilter()" onkeyup="mmInventoryFilter()" placeholder="Sponsor..." size="12">
+— <input class="search" id="searchName" type="text" onchange="mmInventoryFilter()" onkeyup="mmInventoryFilter()" placeholder="Figure Name..." size="12">
 </p>
 <hr>
 </div>
@@ -38,12 +38,12 @@ a:hover {
 
 <script>
 function mmInventoryFilter() {
-  var zSponsor = $("#sponsorSearch").val().toLowerCase();
-  var zName = $("#searchName").val().toLowerCase();
+  var zSponsor = $("#sponsorSearch").val().toLowerCase().replace(/\s/g,'');
+  var zName = $("#searchName").val().toLowerCase().replace(/\s/g,'');
   $("#mmInventory tr").not("[id*='trheader']").filter(function() {
     $(this).toggle(
-      $(this).children("td:nth-child(1)").text().toLowerCase().indexOf(zSponsor) > -1 &&
-      $(this).children("td:nth-child(2)").text().toLowerCase().indexOf(zName) > -1
+      $(this).children("td:nth-child(1)").text().toLowerCase().replace(/\s/g,'').includes(zSponsor) &&
+      $(this).children("td:nth-child(2)").text().toLowerCase().replace(/\s/g,'').includes(zName)
     )
   });
 }
