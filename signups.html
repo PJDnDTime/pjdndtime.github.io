@@ -86,7 +86,9 @@
   <br>
   <br>
   <script>
-    var thursday = new Date().getDay();
+    var dateLoc = new Date();
+    var dateCal = new Date(dateLoc.getTime() + (dateLoc.getTimezoneOffset() * 60000) - 28800000);
+    var thursday = dateCal.getDay();
     if (thursday == 4) {
         $("#signupEnabled").hide();
         $("#signupDisabled").show();
