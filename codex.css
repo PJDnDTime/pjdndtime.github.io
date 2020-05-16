@@ -11,6 +11,9 @@
   border-top:1px solid lightgrey;
   border-bottom:1px solid lightgrey;
 }
+.item {
+  margin-bottom: -20px;
+}
 .item:hover {
   font-weight: bold;
   color: #990000;
@@ -20,6 +23,7 @@
   color: black;
   font-style: italic;
   pointer-events: none;
+  border-bottom:1px solid lightgrey;
 }
 .stickycodex {
   position: -webkit-sticky;  /* Safari */
