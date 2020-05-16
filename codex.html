@@ -350,7 +350,7 @@ function codexFilter() {
 }
 $(document).on("click", '.item', function(event) { 
   $(this).toggleClass("block");
-  $(this).children(".idesc").toggle();
+  $(this).next(".idesc").toggle();
 });
 </script>
 <script>
