@@ -23,7 +23,6 @@
   color: black;
   font-style: italic;
   pointer-events: none;
-  border-bottom:1px solid lightgrey;
 }
 .stickycodex {
   position: -webkit-sticky;  /* Safari */
