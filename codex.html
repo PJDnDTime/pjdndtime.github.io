@@ -9,12 +9,12 @@
 <h1>Character Codex</h1>
 
 <p>
-<input class="search" id="searchChar" type="text" onchange="codexFilter()" placeholder="Character..." size="12">
-<input class="search" id="searchTwitch" type="text" onchange="codexFilter()" placeholder="Twitch User..." size="12">
-<input class="search" id="searchRace" type="text" onchange="codexFilter()" placeholder="Race..." size="12">
-<input class="search" id="searchClass" type="text" onchange="codexFilter()" placeholder="Class..." size="12">
-<input class="search" id="searchTier" type="text" onchange="codexFilter()" placeholder="Tier..." size="12">
-<input class="search" id="searchItem" type="text" onchange="codexFilter()" placeholder="Item..." size="12">
+<input class="search" id="searchChar" type="text" onkeyup="codexFilter()" onchange="codexFilter()" placeholder="Character..." size="12">
+<input class="search" id="searchTwitch" type="text" onkeyup="codexFilter()" onchange="codexFilter()" placeholder="Twitch User..." size="12">
+<input class="search" id="searchRace" type="text" onkeyup="codexFilter()" onchange="codexFilter()" placeholder="Race..." size="12">
+<input class="search" id="searchClass" type="text" onkeyup="codexFilter()" onchange="codexFilter()" placeholder="Class..." size="12">
+<input class="search" id="searchTier" type="text" onkeyup="codexFilter()"onchange="codexFilter()" placeholder="Tier..." size="12">
+<input class="search" id="searchItem" type="text" onkeyup="codexFilter()"onchange="codexFilter()" placeholder="Item..." size="12">
 </p><p>
 XP Filter: <input class="search" id="searchXPmin" type="number" onchange="codexFilter()" min="1" max="153" value="1"> — <input id="searchXPmax" type="number" onchange="codexFilter()" min="1" max="153" value="153">
 </p></p><p></p><hr>
@@ -348,6 +348,8 @@ function codexFilter() {
     )
   });
 }
+</script>
+<script>
 $(document).on("click", '.item', function(event) { 
   $(this).toggleClass("block");
   $(this).next(".idesc").toggle();
