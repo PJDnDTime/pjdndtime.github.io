@@ -129,10 +129,18 @@ function filterMinisList() {
 $.ajax({
 	url:'https://docs.google.com/spreadsheets/u/0/d/1q9RYBuDmlhQvICe7UDTqhXNYrvJMqR5-fyallvft3eU/preview/sheet?gid=336037388',
 	type:'GET',
+	tryCount : 0,
+	retryLimit : 6,
 	success: function(data){
 		$('table').append($(data).find('.softmerge-inner').text());
 		$('#trspinner').remove();
-   }
+	},
+	error: function() {
+		this.tryCount++;
+		if (this.tryCount <= this.retryLimit) {
+			$.ajax(this);
+			return;
+	}
 });
 </script>
 <script src="//code.jquery.com/jquery-latest.js"></script>
