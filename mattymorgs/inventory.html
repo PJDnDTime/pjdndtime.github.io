@@ -130,7 +130,7 @@ $.ajax({
 	url:'https://docs.google.com/spreadsheets/u/0/d/1q9RYBuDmlhQvICe7UDTqhXNYrvJMqR5-fyallvft3eU/preview/sheet?gid=336037388',
 	type:'GET',
 	tryCount : 0,
-	retryLimit : 6,
+	retryLimit : 15,
 	success: function(data){
 		$('table').append($(data).find('.softmerge-inner').text());
 		$('#trspinner').remove();
@@ -138,7 +138,7 @@ $.ajax({
 	error: function() {
 		this.tryCount++;
 		if (this.tryCount <= this.retryLimit) {
-			$.ajax(this);
+			setTimeout($.ajax(this),2000);
 			return;
 	}
 });
