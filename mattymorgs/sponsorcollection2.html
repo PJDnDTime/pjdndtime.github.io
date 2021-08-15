@@ -106,6 +106,8 @@ h2 {
 <tr id="trspinner"><td><img style="display:block;margin:auto;" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Ajax-loader.gif"></td></tr>
 </table>
 
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <script>
 function mmInventoryFilter() {
   var zSponsor = $("#sponsorSearch").val().toLowerCase().replace(/\s/g,'');
@@ -131,7 +133,5 @@ $.ajax({
 // on first page load, initialize and start refresh interval
 mmInventoryFeed();
 </script>
-<script src="//code.jquery.com/jquery-latest.js"></script>
-<script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
