@@ -119,26 +119,15 @@ function mmInventoryFilter() {
 }
 </script>
 <script>
-function mmInventoryFeed() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      parseMMInventory(this);
-    }
-  }
-  xhttp.open("GET", "https://spreadsheets.google.com/feeds/cells/1W_FVu9JO29o3UHdsWc-epfHfWpZDJQS-Be7YsvIgx5U/1/public/values");
-  xhttp.send();
-}
-function parseMMInventory(xml) {
-  var xmlDoc = xml.responseXML;
-  var mmInventoryLoop;
-  var mmInventoryData;
-  try{$("#trspinner").remove();}finally{};
-  for (mmInventoryLoop = 0; mmInventoryLoop < 10000; mmInventoryLoop++) {
-    mmInventoryData = xmlDoc.getElementsByTagName("gs:cell")[mmInventoryLoop].childNodes[0].nodeValue;
-    try{$("#mmInventory").append(mmInventoryData);}finally{};
-  }
-}
+
+$.ajax({
+   url:'https://docs.google.com/spreadsheets/u/0/d/1osGJXLNpywNuSdkppxqQrTXAkrjznX1VdP8vWJ1-GIs/preview/sheet?gid=1061252885',
+   type:'GET',
+   success: function(data){
+       $('tbody').html($(data).find('.softmerge-inner').html());
+   }
+});
+
 // on first page load, initialize and start refresh interval
 mmInventoryFeed();
 </script>
