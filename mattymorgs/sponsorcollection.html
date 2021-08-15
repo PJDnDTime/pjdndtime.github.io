@@ -124,10 +124,18 @@ function mmInventoryFilter() {
 $.ajax({
 	url:'https://docs.google.com/spreadsheets/u/0/d/1osGJXLNpywNuSdkppxqQrTXAkrjznX1VdP8vWJ1-GIs/preview/sheet?gid=1061252885',
 	type:'GET',
+	tryCount : 0,
+	retryLimit : 15,
 	success: function(data){
 		$('table').append($(data).find('.softmerge-inner').text());
 		$('#trspinner').remove();
-   }
+	},
+	error: function() {
+		this.tryCount++;
+		if (this.tryCount <= this.retryLimit) {
+			setTimeout($.ajax(this),2000);
+			return;
+	}
 });
 </script>
 </body>
