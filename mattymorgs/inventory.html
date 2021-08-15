@@ -126,28 +126,14 @@ function filterMinisList() {
 }
 </script>
 <script>
-function mmInventoryFeed() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      parseMMInventory(this);
-    }
-  }
-  xhttp.open("GET", "https://spreadsheets.google.com/feeds/cells/1we2UB6n6hTRLrgDj1iLfvoUVlsZpxdEXwca2Y2rjerc/1/public/values");
-  xhttp.send();
-}
-function parseMMInventory(xml) {
-  var xmlDoc = xml.responseXML;
-  var mmInventoryLoop;
-  var mmInventoryData;
-  try{$("#trspinner").remove();}finally{};
-  for (mmInventoryLoop = 0; mmInventoryLoop < 10000; mmInventoryLoop++) {
-    mmInventoryData = xmlDoc.getElementsByTagName("gs:cell")[mmInventoryLoop].childNodes[0].nodeValue;
-    try{$("#mmInventory").append(mmInventoryData);}finally{};
-  }
-}
-// on first page load, initialize and start refresh interval
-mmInventoryFeed();
+$.ajax({
+	url:'https://docs.google.com/spreadsheets/u/0/d/1q9RYBuDmlhQvICe7UDTqhXNYrvJMqR5-fyallvft3eU/preview/sheet?gid=336037388',
+	type:'GET',
+	success: function(data){
+		$('table').append($(data).find('.softmerge-inner').text());
+		$('#trspinner').remove();
+   }
+});
 </script>
 <script src="//code.jquery.com/jquery-latest.js"></script>
 <script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
