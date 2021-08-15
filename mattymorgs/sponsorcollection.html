@@ -2,6 +2,7 @@
 <html>
 <link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rowdies:wght@300&family=Spectral+SC:wght@500&display=swap');   
 a {
   color: black;
   text-decoration: underline;
@@ -15,7 +16,76 @@ a:hover {
   -webkit-text-decoration-color: rgba(0, 0, 255, 0.75); /* Safari */   
   text-decoration-color: rgba(0, 0, 255, 0.75);
 }
+body {
+  background-image: url("page-background.jpg");
+  font-size: 11pt;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+h2 {
+  padding-top: 0pt;
+  margin: 0;
+  color: #980000;
+  border-bottom-color: #bf9000;
+  font-weight: 600;
+  padding-left: 0;
+  font-size: 16pt;
+  padding-bottom: 2pt;
+  line-height: 1.0;
+  page-break-after: avoid;
+  border-bottom-width: 1.5pt;
+  font-family: 'Spectral SC', serif;
+  border-bottom-style: solid;
+  text-align: left;
+  padding-right: 0
+}
+    
+.stroke-text {
+  font-family: 'Rowdies', cursive;
+  --stroke-color: black;
+  --stroke-width: 3px;
+  letter-spacing: var(--stroke-width);
+  color: white;
+  text-shadow: var(--stroke-width) 0 0 var(--stroke-color),
+    calc(var(--stroke-width) * -1) 0 0 var(--stroke-color),
+    0 var(--stroke-width) 0 var(--stroke-color),
+    0 calc(var(--stroke-width) * -1) 0 var(--stroke-color);
+}
 
+.smooth-16 {
+  text-shadow: calc(var(--stroke-width) * 1) calc(var(--stroke-width) * 0) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * 0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * 0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * 0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0) calc(var(--stroke-width) * 1) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * 0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * 0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * 0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -1) calc(var(--stroke-width) * 0) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * -0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * -0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * -0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0) calc(var(--stroke-width) * -1) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * -0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * -0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * -0.3827) 0
+      var(--stroke-color);
+}
 </style>
 <body>
 
