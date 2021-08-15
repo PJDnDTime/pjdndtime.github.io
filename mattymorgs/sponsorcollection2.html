@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rowdies:wght@300&family=Spectral+SC:wght@500&display=swap');   
+a {
+  color: black;
+  text-decoration: underline;
+  -webkit-text-decoration-color: rgba(0, 0, 0, 0.25); /* Safari */   
+  text-decoration-color: rgba(0, 0, 0, 0.25);
+}
+a:hover {
+  font-weight: bold;
+  color: blue;
+  text-decoration: underline;
+  -webkit-text-decoration-color: rgba(0, 0, 255, 0.75); /* Safari */   
+  text-decoration-color: rgba(0, 0, 255, 0.75);
+}
+body {
+  background-image: url("page-background.jpg");
+  font-size: 11pt;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+h2 {
+  padding-top: 0pt;
+  margin: 0;
+  color: #980000;
+  border-bottom-color: #bf9000;
+  font-weight: 600;
+  padding-left: 0;
+  font-size: 16pt;
+  padding-bottom: 2pt;
+  line-height: 1.0;
+  page-break-after: avoid;
+  border-bottom-width: 1.5pt;
+  font-family: 'Spectral SC', serif;
+  border-bottom-style: solid;
+  text-align: left;
+  padding-right: 0
+}
+    
+.stroke-text {
+  font-family: 'Rowdies', cursive;
+  --stroke-color: black;
+  --stroke-width: 3px;
+  letter-spacing: var(--stroke-width);
+  color: white;
+  text-shadow: var(--stroke-width) 0 0 var(--stroke-color),
+    calc(var(--stroke-width) * -1) 0 0 var(--stroke-color),
+    0 var(--stroke-width) 0 var(--stroke-color),
+    0 calc(var(--stroke-width) * -1) 0 var(--stroke-color);
+}
+
+.smooth-16 {
+  text-shadow: calc(var(--stroke-width) * 1) calc(var(--stroke-width) * 0) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * 0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * 0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * 0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0) calc(var(--stroke-width) * 1) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * 0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * 0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * 0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -1) calc(var(--stroke-width) * 0) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * -0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * -0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * -0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0) calc(var(--stroke-width) * -1) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * -0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * -0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * -0.3827) 0
+      var(--stroke-color);
+}
+</style>
+<body>
+
+<div id="searchOptions" class="stickycodex" style="width:100% overflow:hidden;">
+
+<div><p style="padding-top:7pt;margin:0;color:#000000;font-weight:500;padding-left:0;font-size:13pt;padding-bottom:0pt;line-height:1.25;font-family:&quot;Spectral&quot;;orphans:2;widows:2;height:13pt;text-align:left;padding-right:0"><span style="color:#000000;font-weight:500;text-decoration:none;vertical-align:baseline;font-size:2pt;font-family:&quot;Spectral&quot;;font-style:normal"></span></p></div>
+	
+<h2 style="margin-bottom:25px; font-family: 'Rowdies', cursive; color: white; border-bottom-width: 0pt; font-size: 28pt;" class="stroke-text smooth-16">MattyMorgs Sponsor Collections</h2>
+
+<p>
+<input class="search" id="sponsorSearch" type="text" onchange="mmInventoryFilter()" onkeyup="mmInventoryFilter()" placeholder="Sponsor..." size="12">
+— <input class="search" id="searchName" type="text" onchange="mmInventoryFilter()" onkeyup="mmInventoryFilter()" placeholder="Figure Name..." size="12">
+</p>
+<hr>
+</div>
+
+<table id="mmInventory" style="width: 100%;">
+<tr id="trspinner"><td><img style="display:block;margin:auto;" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Ajax-loader.gif"></td></tr>
+</table>
+
+<script>
+function mmInventoryFilter() {
+  var zSponsor = $("#sponsorSearch").val().toLowerCase().replace(/\s/g,'');
+  var zName = $("#searchName").val().toLowerCase().replace(/\s/g,'');
+  $("#mmInventory tr").not("[id*='trheader']").filter(function() {
+    $(this).toggle(
+      $(this).children("td:nth-child(1)").text().toLowerCase().replace(/\s/g,'').includes(zSponsor) &&
+      $(this).children("td:nth-child(2)").text().toLowerCase().replace(/\s/g,'').includes(zName)
+    )
+  });
+}
+</script>
+<script>
+function mmInventoryFeed() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      parseMMInventory(this);
+    }
+  }
+  xhttp.open("GET", "https://spreadsheets.google.com/feeds/cells/1W_FVu9JO29o3UHdsWc-epfHfWpZDJQS-Be7YsvIgx5U/1/public/values");
+  xhttp.send();
+}
+function parseMMInventory(xml) {
+  var xmlDoc = xml.responseXML;
+  var mmInventoryLoop;
+  var mmInventoryData;
+  try{$("#trspinner").remove();}finally{};
+  for (mmInventoryLoop = 0; mmInventoryLoop < 10000; mmInventoryLoop++) {
+    mmInventoryData = xmlDoc.getElementsByTagName("gs:cell")[mmInventoryLoop].childNodes[0].nodeValue;
+    try{$("#mmInventory").append(mmInventoryData);}finally{};
+  }
+}
+// on first page load, initialize and start refresh interval
+mmInventoryFeed();
+</script>
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
