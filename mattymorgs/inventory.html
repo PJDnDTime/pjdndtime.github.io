@@ -4,6 +4,7 @@
 <link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 </head>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rowdies:wght@300&family=Spectral+SC:wght@500&display=swap');   
 a {
   color: inherit;
   text-decoration: underline;
@@ -17,7 +18,76 @@ a:hover {
   -webkit-text-decoration-color: rgba(0, 0, 255, 0.75); /* Safari */   
   text-decoration-color: rgba(0, 0, 255, 0.75);
 }
+body {
+  background-image: url("page-background.jpg");
+  font-size: 11pt;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+h2 {
+  padding-top: 0pt;
+  margin: 0;
+  color: #980000;
+  border-bottom-color: #bf9000;
+  font-weight: 600;
+  padding-left: 0;
+  font-size: 16pt;
+  padding-bottom: 2pt;
+  line-height: 1.0;
+  page-break-after: avoid;
+  border-bottom-width: 1.5pt;
+  font-family: 'Spectral SC', serif;
+  border-bottom-style: solid;
+  text-align: left;
+  padding-right: 0
+}
+    
+.stroke-text {
+  font-family: 'Rowdies', cursive;
+  --stroke-color: black;
+  --stroke-width: 3px;
+  letter-spacing: var(--stroke-width);
+  color: white;
+  text-shadow: var(--stroke-width) 0 0 var(--stroke-color),
+    calc(var(--stroke-width) * -1) 0 0 var(--stroke-color),
+    0 var(--stroke-width) 0 var(--stroke-color),
+    0 calc(var(--stroke-width) * -1) 0 var(--stroke-color);
+}
 
+.smooth-16 {
+  text-shadow: calc(var(--stroke-width) * 1) calc(var(--stroke-width) * 0) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * 0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * 0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * 0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0) calc(var(--stroke-width) * 1) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * 0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * 0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * 0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -1) calc(var(--stroke-width) * 0) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * -0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * -0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * -0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0) calc(var(--stroke-width) * -1) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * -0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * -0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * -0.3827) 0
+      var(--stroke-color);
+}
 </style>
 <body>
 
@@ -25,7 +95,7 @@ a:hover {
 
 <div><p style="padding-top:7pt;margin:0;color:#000000;font-weight:500;padding-left:0;font-size:13pt;padding-bottom:0pt;line-height:1.25;font-family:&quot;Spectral&quot;;orphans:2;widows:2;height:13pt;text-align:left;padding-right:0"><span style="color:#000000;font-weight:500;text-decoration:none;vertical-align:baseline;font-size:2pt;font-family:&quot;Spectral&quot;;font-style:normal"></span></p></div>
 	
-<h2 style="margin-bottom:10px;">MattyMorgs Home for Wayward Minis</h2>
+<h2 style="margin-bottom:25px; font-family: 'Rowdies', cursive; color: white; border-bottom-width: 0pt; font-size: 28pt;" class="stroke-text smooth-16">MattyMorgs Home for Wayward Minis</h2>
 
 <p>
 <input class="search" id="searchSet" type="text" placeholder="Set..." size="12" onkeyup="filterMinisList()" onchange="filterMinisList()">
