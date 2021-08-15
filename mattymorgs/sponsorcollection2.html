@@ -121,7 +121,6 @@ function mmInventoryFilter() {
 }
 </script>
 <script>
-
 $.ajax({
    url:'https://docs.google.com/spreadsheets/u/0/d/1osGJXLNpywNuSdkppxqQrTXAkrjznX1VdP8vWJ1-GIs/preview/sheet?gid=1061252885',
    type:'GET',
@@ -129,9 +128,6 @@ $.ajax({
        $('tbody').html($(data).find('.softmerge-inner').html());
    }
 });
-
-// on first page load, initialize and start refresh interval
-mmInventoryFeed();
 </script>
 </body>
 </html>
