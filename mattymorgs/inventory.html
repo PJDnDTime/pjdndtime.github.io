@@ -140,6 +140,7 @@ $.ajax({
 		if (this.tryCount <= this.retryLimit) {
 			setTimeout($.ajax(this),2000);
 			return;
+		}
 	}
 });
 </script>
