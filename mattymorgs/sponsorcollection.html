@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
 <link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Rowdies:wght@300&family=Spectral+SC:wght@500&display=swap');   
@@ -87,6 +88,7 @@ h2 {
       var(--stroke-color);
 }
 </style>
+</head>
 <body>
 
 <div id="searchOptions" class="stickycodex" style="width:100% overflow:hidden;">
@@ -108,6 +110,7 @@ h2 {
 
 <script src="//code.jquery.com/jquery-latest.js"></script>
 <script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
 <script>
 function mmInventoryFilter() {
   var zSponsor = $("#sponsorSearch").val().toLowerCase().replace(/\s/g,'');
@@ -120,6 +123,7 @@ function mmInventoryFilter() {
   });
 }
 </script>
+
 <script>
 $.ajax({
 	url:'https://docs.google.com/spreadsheets/u/0/d/1osGJXLNpywNuSdkppxqQrTXAkrjznX1VdP8vWJ1-GIs/preview/sheet?gid=1061252885',
@@ -139,5 +143,6 @@ $.ajax({
 	}
 });
 </script>
+
 </body>
 </html>
