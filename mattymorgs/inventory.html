@@ -3,13 +3,15 @@
 <head>
 <link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rowdies:wght@300&family=Spectral+SC:wght@500&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rowdies:wght@300&family=Spectral+SC:wght@500&display=swap');
+
 a {
   color: inherit;
   text-decoration: underline;
   -webkit-text-decoration-color: rgba(0, 0, 0, 0.25); /* Safari */   
   text-decoration-color: rgba(0, 0, 0, 0.25);
 }
+
 a:hover {
   font-weight: bold;
   color: blue;
@@ -17,12 +19,14 @@ a:hover {
   -webkit-text-decoration-color: rgba(0, 0, 255, 0.75); /* Safari */   
   text-decoration-color: rgba(0, 0, 255, 0.75);
 }
+
 body {
   background-image: url("page-background.jpg");
   font-size: 11pt;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
 }
+
 h2 {
   padding-top: 0pt;
   margin: 0;
@@ -136,7 +140,7 @@ $.ajax({
 	tryCount : 0,
 	retryLimit : 15,
 	success: function(data){
-		$('table').append($(data).find('.softmerge-inner').text());
+		$('#mmInventory').append($(data).find('.softmerge-inner').text());
 		$('#trspinner').remove();
 	},
 	error: function() {
