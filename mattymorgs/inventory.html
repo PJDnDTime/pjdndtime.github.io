@@ -112,7 +112,9 @@ h2 {
 </div>
 
 <table id="mmInventory" style="width: 100%;">
+<tbody id="appendInventory">
 <tr id="trspinner"><td><img style="display:block;margin:auto;" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Ajax-loader.gif"></td></tr>
+</tbody>
 </table>
 
 <script src="//code.jquery.com/jquery-latest.js"></script>
@@ -140,7 +142,7 @@ $.ajax({
 	tryCount : 0,
 	retryLimit : 15,
 	success: function(data){
-		$('#mmInventory').append($(data).find('.softmerge-inner').text());
+		$('#appendInventory').append($(data).find('.softmerge-inner').text());
 		$('#trspinner').remove();
 	},
 	error: function() {
