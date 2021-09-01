@@ -134,7 +134,7 @@
 			}
 			function parseFeed(xml) {
 			  var xmlDoc = xml.responseXML;
-			document.getElementById("navData").innerHTML = xmlDoc.getElementsByTagName("gs:cell")[0].childNodes[0].nodeValue;
+			$('#navData').append($(xmlDoc).find('.softmerge-inner').text());
 			}
 			
 			// on first page load, initialize and start refresh interval
