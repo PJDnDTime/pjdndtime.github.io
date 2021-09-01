@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="../fanart/unitegallery/themes/default/ug-theme-default.css" type="text/css" />
 
 <div id="gallerypreload" style="height:100%"> 
-<img style="display:block;margin:auto;" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Ajax-loader.gif">
+<img id="artLoader" style="display:block;margin:auto;" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Ajax-loader.gif">
 </div>
 
 <script type='text/javascript' src='../fanart/unitegallery/js/unitegallery.min.js'></script>
@@ -25,7 +25,7 @@ function artFeed() {
 		retryLimit: 15,
 		success: function(data) {
 			$('#gallerypreload').append($(data).find('.s0').text());
-			$('#tr0').remove();
+			$('#artLoader').remove();
 		},
 		error: function() {
 			this.tryCount++;
