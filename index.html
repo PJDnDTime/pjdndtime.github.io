@@ -120,30 +120,33 @@
     <div class="bodyCon">
       <div id="siteContentArea"></div>
     </div>
+	
   <script src="//code.jquery.com/jquery-latest.js"></script>
+	
   <script id='navData'></script>
+	
   <script>
-    function initDatastream() {
-			  var xhttp = new XMLHttpRequest();
-			  xhttp.onreadystatechange = function() {
-			    if (this.readyState == 4 && this.status == 200) {
-			      parseFeed(this);
-			    }
-			  }
-			  xhttp.open("GET", "https://docs.google.com/spreadsheets/d/e/2PACX-1vSJUZYAtPpZmFTx5jLTaYOlTh3oS4C9mmuwkT3g0-IaDq_6TB1937s2ESFMNGy4XFPhlFSjYJ7NwXP7/pubhtml?gid=252401586");
-			  xhttp.send();
+  $.ajax({
+	type:		'GET',
+	url:		'https://docs.google.com/spreadsheets/u/0/d/1q9RYBuDmlhQvICe7UDTqhXNYrvJMqR5-fyallvft3eU/preview/sheet?gid=336037388',
+	dataType:	'html',
+	tryCount:	0,
+	retryLimit:	15,
+	success:	function(data){
+				$('#navData').append($(data).find('.softmerge-inner').text());
+			},
+	error:		function() {
+				this.tryCount++;
+				if (this.tryCount <= this.retryLimit) {
+					setTimeout($.ajax(this),2000);
+					return;
+				}
 			}
-			function parseFeed(xml) {
-			  var xmlDoc = xml.responseXML;
-			$('#navData').append($(xmlDoc).find('.softmerge-inner').text());
-			}
-			
-			// on first page load, initialize and start refresh interval
-			initDatastream();
-			setInterval(initDatastream, 300000); // 300 seconds.
-
-			// on link load, fix all redirects
-			function fixRedirects() {
+  });
+  </script>
+	
+  <script>
+		function fixRedirects() {
 				$('a[href^="#https"]').each(function(){
 					this.href = this.href.replace('#https', 'https');
 					this.target = "_blank";
@@ -166,8 +169,8 @@
 				$('a[href^="dndtime.stream/https"]').each(function(){
 					this.href = this.href.replace('dndtime.stream/https', 'https');
 				});
-			}
-			setInterval(fixRedirects, 500); // 0.5 seconds
+		}
+		setInterval(fixRedirects, 500); // 0.5 seconds
   </script>
 </body>
 </html>
