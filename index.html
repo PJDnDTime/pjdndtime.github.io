@@ -133,7 +133,7 @@
 	tryCount:	0,
 	retryLimit:	15,
 	success:	function(data){
-				$('#navData').append($(data).find('.softmerge-inner').text());
+				$('#navData').append($(data).find('.softmerge-inner').html());
 			},
 	error:		function() {
 				this.tryCount++;
