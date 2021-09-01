@@ -15,26 +15,30 @@
 
 <script type='text/javascript' src='../fanart/unitegallery/js/unitegallery.min.js'></script>
 <script type='text/javascript' src='../fanart/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+
 <script>
-function artFeed() {
-	var xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-			parseArtFeed(this);
+function artFeed(){
+$.ajax({
+	url:'https://docs.google.com/spreadsheets/d/e/2PACX-1vQxtJ6dFYHNNZUQ86K_x1uiBcqX4_-zDwVRvK9vPb2WXXsKZN0NL_evpq_1eM1Kh0Xzam7USysRo-uX/pubhtml?gid=1775445010',
+	type:'GET',
+	tryCount : 0,
+	retryLimit : 15,
+	success: function(data){
+		$('#gallerypreload').append($(data).find('.s0').text());
+		$('#tr0').remove();
+	},
+	error: function() {
+		this.tryCount++;
+		if (this.tryCount <= this.retryLimit) {
+			setTimeout($.ajax(this),2000);
+			return;
 		}
 	}
-	xhttp.open("GET", "https://spreadsheets.google.com/feeds/cells/1luMngxHnM926Y45eRXZ8n2m_3E7SsCDoyhERLSwku3Q/1/public/values");
-	xhttp.send();
+});
+$(document).ready(function(){$('#gallery').delay(1000).unitegallery({tiles_type:'nested'});});
 }
-
-function parseArtFeed(xml) {
-	var xmlDoc = xml.responseXML;
-	document.getElementById("gallerypreload").innerHTML = xmlDoc.getElementsByTagName("gs:cell")[0].childNodes[0].nodeValue;
-	$(document).ready(function(){$('#gallery').delay(1000).unitegallery({tiles_type:'nested'});});
-}
-
-// on first page load, initialize
 artFeed();
-  </script>
+</script>
+	
 </html>
 </body>
