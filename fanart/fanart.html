@@ -26,7 +26,6 @@ function artFeed() {
 		success: function(data) {
 			$('#gallerypreload').append($(data).find('.s0').text());
 			$('#tr0').remove();
-			$('#gallerypreload').remove();
 		},
 		error: function() {
 			this.tryCount++;
