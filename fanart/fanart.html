@@ -17,26 +17,34 @@
 <script type='text/javascript' src='../fanart/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
 
 <script>
-function artFeed(){
-$.ajax({
-	url:'https://docs.google.com/spreadsheets/d/e/2PACX-1vQxtJ6dFYHNNZUQ86K_x1uiBcqX4_-zDwVRvK9vPb2WXXsKZN0NL_evpq_1eM1Kh0Xzam7USysRo-uX/pubhtml?gid=1775445010',
-	type:'GET',
-	tryCount : 0,
-	retryLimit : 15,
-	success: function(data){
-		$('#gallerypreload').append($(data).find('.s0').text());
-		$('#tr0').remove();
-		$('#gallerypreload').remove();
-	},
-	error: function() {
-		this.tryCount++;
-		if (this.tryCount <= this.retryLimit) {
-			setTimeout($.ajax(this),2000);
-			return;
+function artFeed() {
+	$.ajax({
+		url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQxtJ6dFYHNNZUQ86K_x1uiBcqX4_-zDwVRvK9vPb2WXXsKZN0NL_evpq_1eM1Kh0Xzam7USysRo-uX/pubhtml?gid=1775445010',
+		type: 'GET',
+		tryCount: 0,
+		retryLimit: 15,
+		success: function(data) {
+			$('#gallerypreload').append($(data).find('.s0').text());
+			$('#tr0').remove();
+			$('#gallerypreload').remove();
+		},
+		error: function() {
+			this.tryCount++;
+			if (this.tryCount <= this.retryLimit) {
+				setTimeout($.ajax(this), 2000);
+				return;
+			}
 		}
-	}
-});
-$(document).ready(function(){$('#gallery').delay(1000).unitegallery({tiles_type:'nested'});});
+	});
+	initializeArt();
+}
+
+function initializeArt() {
+	$(document).ready(function() {
+		$('#gallery').delay(1000).unitegallery({
+			tiles_type: 'nested'
+		});
+	});
 }
 artFeed();
 </script>
